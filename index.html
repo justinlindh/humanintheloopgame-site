@@ -26,7 +26,11 @@
 </head>
 <body>
   <header class="hero">
-    <img class="hero-bg" src="img/hq.webp" alt="A busy company headquarters in the game, seen from above" fetchpriority="high">
+    <video class="hero-bg loop" muted loop playsinline preload="none" poster="img/hero.webp" aria-hidden="true">
+      <source data-src="media/loops/hero.webm" type="video/webm">
+      <source data-src="media/loops/hero.mp4" type="video/mp4">
+    </video>
+    <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
     <nav class="hero-nav" aria-label="Sections">
       <a class="btn" href="#trailer">Trailer</a>
       <a class="btn" href="#features">Features</a>
@@ -93,7 +97,7 @@
           </div>
         </article>
         <article class="card feature">
-          <div class="ph">Clip coming: an incident in progress, red alarm lighting</div>
+          <img src="img/incident.webp" alt="An incident in progress: red alarm lighting and staff at their desks with alerts over their heads" loading="lazy">
           <div class="text">
             <h3>Call the outage a stress test</h3>
             <p>Rogue agents, breaches and outages at 3am. Red lights, people running, and a call to make before the customers notice.</p>
@@ -140,8 +144,8 @@
           <figcaption>Music night. Attendance is optional but strongly watched.</figcaption>
         </figure>
         <figure>
-          <img src="img/hq.webp" alt="A busy headquarters with bookcases, plant walls and an office cat" loading="lazy">
-          <figcaption>HQ, with an office cat</figcaption>
+          <img src="img/hq-night.webp" alt="The headquarters at night, lit from inside" loading="lazy">
+          <figcaption>HQ, after hours</figcaption>
         </figure>
         <figure>
           <img src="img/agents.webp" alt="The Agents era arrives with its era card" loading="lazy">
