@@ -26,9 +26,9 @@
 </head>
 <body>
   <header class="hero">
-    <video class="hero-bg loop" muted loop playsinline preload="none" poster="img/hero.webp" aria-hidden="true">
-      <source data-src="media/loops/hero.webm" type="video/webm">
-      <source data-src="media/loops/hero.mp4" type="video/mp4">
+    <video class="hero-bg loop" muted loop playsinline preload="none" poster="img/hero.webp" data-poster-wide="img/hero-2560.webp" aria-hidden="true">
+      <source data-src="media/loops/hero.webm" data-src-wide="media/loops/hero-2560.webm" type="video/webm">
+      <source data-src="media/loops/hero.mp4" data-src-wide="media/loops/hero-2560.mp4" type="video/mp4">
     </video>
     <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
     <nav class="hero-nav" aria-label="Sections">
@@ -71,23 +71,10 @@
       <h2>What you do all day</h2>
       <div class="features">
         <article class="card feature">
-          <div class="loop-box">
-            <video class="loop" muted loop playsinline preload="none" poster="img/loops/era.webp" aria-hidden="true">
-              <source data-src="media/loops/era.webm" type="video/webm">
-              <source data-src="media/loops/era.mp4" type="video/mp4">
-            </video>
-            <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
-          </div>
-          <div class="text">
-            <h3>Twenty years, five eras</h3>
-            <p>Start in a garage in 2019, before anyone has heard of a large language model. Then the chatbots arrive, then the agents, then everyone buys everyone.</p>
-          </div>
-        </article>
-        <article class="card feature">
           <img src="img/lockdown.webp" alt="The office empty during lockdown, with everyone on a video call" loading="lazy">
           <div class="text">
             <h3>People, not headcount</h3>
-            <p>Everyone has a desk, a mood and opinions in Yak, the company chat. Automate the work they were proud of and they coast, burn out, then post a farewell in #general.</p>
+            <p>Everyone has a desk, a mood and a breaking point. Automate the work they were proud of and they coast, burn out, then leave.</p>
           </div>
         </article>
         <article class="card feature">
@@ -147,7 +134,7 @@
           </div>
           <div class="text">
             <h3>The Waffle Party is real</h3>
-            <p>Reward your team with waffles. And a mandatory dance break. Music night winners pick the genre, and nobody should have that much power.</p>
+            <p>Reward your team with waffles. And a mandatory dance break. Nobody asked for the dance break.</p>
           </div>
         </article>
       </div>
@@ -157,12 +144,12 @@
       <h2>From the office</h2>
       <div class="strip">
         <figure>
-          <img src="img/garage.webp" alt="The garage on a suburban street, two founders at their first desks" loading="lazy">
-          <figcaption>Day one, in the garage</figcaption>
+          <img src="img/garage.webp" alt="The Garage on a suburban street, two founders at their first desks" loading="lazy">
+          <figcaption>Day one, in the Garage</figcaption>
         </figure>
         <figure>
           <img src="img/floor.webp" alt="The Office Floor: a storey in a tower, busy with desks" loading="lazy">
-          <figcaption>A floor of your own, downtown</figcaption>
+          <figcaption>The Office Floor, a storey of your own</figcaption>
         </figure>
         <figure>
           <div class="loop-box">
@@ -175,8 +162,8 @@
           <figcaption>Music night. Attendance is optional but strongly watched.</figcaption>
         </figure>
         <figure>
-          <img src="img/hq-night.webp" alt="The headquarters campus at night, lit from inside against the city" loading="lazy">
-          <figcaption>The campus, after hours</figcaption>
+          <img src="img/hq-night.webp" alt="HQ at night, lit from inside against the city" loading="lazy">
+          <figcaption>HQ, after hours</figcaption>
         </figure>
       </div>
     </section>
@@ -191,7 +178,7 @@
           </video>
           <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
         </div>
-        <figcaption>From two founders in a garage, to a campus full of people, to a quieter floor where the agents do the typing.</figcaption>
+        <figcaption>Two founders in the Garage, 35 people at HQ, then fewer as the agents take over.</figcaption>
       </figure>
       <div class="eras timeline">
         <div class="card era">
@@ -252,10 +239,6 @@
           <img src="img/rival-sign.webp" alt="The rival's office across the street with a sign reading Days since they copied us: 0" loading="lazy">
           <figcaption>Days since they copied us: 0</figcaption>
         </figure>
-        <figure>
-          <img src="img/cheque.webp" alt="A novelty cheque the size of a door, propped against the office wall" loading="lazy">
-          <figcaption>Big calls come with props. This one is a cheque the size of a door.</figcaption>
-        </figure>
       </div>
     </section>
 
@@ -307,11 +290,14 @@
     // Short muted loops load and play only while on screen. Reduced motion or data saver keeps the posters.
     const still = matchMedia('(prefers-reduced-motion: reduce)').matches || navigator.connection?.saveData;
     const loops = document.querySelectorAll('video.loop');
+    // Wide screens, and HiDPI ones past phone width, get the sharper hero files where a loop offers them.
+    const wide = matchMedia('(min-width: 1600px), (min-width: 901px) and (min-resolution: 1.5dppx)').matches;
+    if (wide) for (const v of document.querySelectorAll('video[data-poster-wide]')) v.poster = v.dataset.posterWide;
     if (!still && 'IntersectionObserver' in window) {
       const seen = new IntersectionObserver((entries) => {
         for (const { target: video, isIntersecting } of entries) {
           if (isIntersecting && !video.dataset.loaded) {
-            for (const source of video.querySelectorAll('source')) source.src = source.dataset.src;
+            for (const source of video.querySelectorAll('source')) source.src = (wide && source.dataset.srcWide) || source.dataset.src;
             video.dataset.loaded = '1';
             video.load();
             video.nextElementSibling.hidden = false;

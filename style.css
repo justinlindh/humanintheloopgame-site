@@ -170,6 +170,11 @@ footer a { color: var(--ink); }
 /* On wide screens the office sits right of the card. */
 @media (min-width: 901px) {
   .hero-bg { transform-origin: left center; transform: scale(1.25); }
+  /* A card alone on the last row spans it, media beside the text. */
+  .features .feature:last-child:nth-child(3n+1) { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: center; }
+  .features .feature:last-child:nth-child(3n+1) > .loop-box,
+  .features .feature:last-child:nth-child(3n+1) > img { border-bottom: 0; border-right: var(--bw) solid var(--ink); align-self: stretch; }
+  .features .feature:last-child:nth-child(3n+1) .text { padding: 28px 32px; }
 }
 @media (max-width: 1100px) {
   .eras { grid-template-columns: repeat(3, minmax(0, 1fr)); }
@@ -194,3 +199,5 @@ footer a { color: var(--ink); }
   html { scroll-behavior: auto; }
   .btn { transition: none; }
 }
+/* Bold Fredoka kerns the space before a V, W or Y almost to nothing ("The Vergence"). */
+.quote cite { word-spacing: 0.14em; }
