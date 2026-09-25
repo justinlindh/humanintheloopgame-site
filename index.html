@@ -26,12 +26,17 @@
 </head>
 <body>
   <header class="hero">
-    <img class="hero-bg" src="img/hq.webp" alt="A busy company headquarters in the game, seen from above" fetchpriority="high">
+    <video class="hero-bg loop" muted loop playsinline preload="none" poster="img/hero.webp" aria-hidden="true">
+      <source data-src="media/loops/hero.webm" type="video/webm">
+      <source data-src="media/loops/hero.mp4" type="video/mp4">
+    </video>
+    <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
     <nav class="hero-nav" aria-label="Sections">
       <a class="btn" href="#trailer">Trailer</a>
       <a class="btn" href="#features">Features</a>
       <a class="btn" href="#eras">Eras</a>
       <a class="btn" href="https://github.com/justinlindh/human-in-the-loop">GitHub</a>
+      <a class="btn primary" href="https://play.humanintheloopgame.com/">Play</a>
     </nav>
     <div class="modal">
       <div class="mhead"><span class="mtag">Now hiring</span> One human</div>
@@ -65,7 +70,13 @@
       <h2>What you do all day</h2>
       <div class="features">
         <article class="card feature">
-          <img src="img/garage.webp" alt="Two founders at their first desks in a garage" loading="lazy">
+          <div class="loop-box">
+            <video class="loop" muted loop playsinline preload="none" poster="img/loops/era.webp" aria-hidden="true">
+              <source data-src="media/loops/era.webm" type="video/webm">
+              <source data-src="media/loops/era.mp4" type="video/mp4">
+            </video>
+            <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
+          </div>
           <div class="text">
             <h3>Twenty years, five eras</h3>
             <p>Start in a garage in 2019, before anyone has heard of a large language model. Then the chatbots arrive, then the agents, then everyone buys everyone.</p>
@@ -86,23 +97,31 @@
           </div>
         </article>
         <article class="card feature">
-          <div class="ph">Render coming: an incident, red alarm lighting, a staged decision prop</div>
+          <img src="img/incident.webp" alt="An incident in progress: red alarm lighting and staff at their desks with alerts over their heads" loading="lazy">
           <div class="text">
             <h3>Call the outage a stress test</h3>
-            <p>Rogue agents, breaches and outages at 3am. Big decisions show up in the office as props: the letter on the desk, the rival's sign across the street, the smoke from the rack.</p>
+            <p>Rogue agents, breaches and outages at 3am. Red lights, people running, and a call to make before the customers notice.</p>
           </div>
         </article>
         <article class="card feature">
-          <img src="img/waffle.webp" alt="The Waffle Party: the winner at a spotlit waffle table while the team watches" loading="lazy">
+          <div class="ph">Clip coming: the pizza gathering or the ransomware screens</div>
+          <div class="text">
+            <h3>Decisions you can see</h3>
+            <p>Big calls show up in the office: pizza boxes for the all-nighter, ransomware on every screen, the rival's sign across the street.</p>
+          </div>
+        </article>
+        <article class="card feature">
+          <div class="loop-box">
+            <video class="loop" muted loop playsinline preload="none" poster="img/loops/waffle.webp" aria-hidden="true">
+              <source data-src="media/loops/waffle.webm" type="video/webm">
+              <source data-src="media/loops/waffle.mp4" type="video/mp4">
+            </video>
+            <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
+          </div>
           <div class="text">
             <h3>The Waffle Party is real</h3>
             <p>Reward your team with waffles. And a mandatory dance break. Music night winners pick the genre, and nobody should have that much power.</p>
           </div>
-        </article>
-        <article class="card feature cta">
-          <h3>Every great company starts in a garage.</h3>
-          <p>This one is still paying rent on it.</p>
-          <a class="btn primary" href="https://play.humanintheloopgame.com/">Start yours</a>
         </article>
       </div>
     </section>
@@ -111,20 +130,26 @@
       <h2>From the office</h2>
       <div class="strip">
         <figure>
-          <img src="img/hq.webp" alt="A busy headquarters with bookcases, plant walls and an office cat" loading="lazy">
-          <figcaption>HQ, with an office cat</figcaption>
+          <img src="img/garage.webp" alt="Two founders at their first desks in a garage" loading="lazy">
+          <figcaption>Day one, in the garage</figcaption>
+        </figure>
+        <figure>
+          <div class="loop-box">
+          <video class="loop" muted loop playsinline preload="none" poster="img/loops/music.webp" aria-hidden="true">
+            <source data-src="media/loops/music.webm" type="video/webm">
+            <source data-src="media/loops/music.mp4" type="video/mp4">
+          </video>
+          <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
+        </div>
+          <figcaption>Music night. Attendance is optional but strongly watched.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/hq-night.webp" alt="The headquarters at night, lit from inside" loading="lazy">
+          <figcaption>HQ, after hours</figcaption>
         </figure>
         <figure>
           <img src="img/agents.webp" alt="The Agents era arrives with its era card" loading="lazy">
           <figcaption>A new era arrives</figcaption>
-        </figure>
-        <figure>
-          <img src="img/music.webp" alt="Music night on the office floor" loading="lazy">
-          <figcaption>Music night. Attendance is optional but strongly watched.</figcaption>
-        </figure>
-        <figure>
-          <img src="img/waffle.webp" alt="The Waffle Party" loading="lazy">
-          <figcaption>We are witnessing history</figcaption>
         </figure>
       </div>
     </section>
@@ -208,6 +233,34 @@
       document.getElementById('player').replaceChildren(video);
       video.focus();
     });
+
+    // Short muted loops load and play only while on screen. Reduced motion or data saver keeps the posters.
+    const still = matchMedia('(prefers-reduced-motion: reduce)').matches || navigator.connection?.saveData;
+    const loops = document.querySelectorAll('video.loop');
+    if (!still && 'IntersectionObserver' in window) {
+      const seen = new IntersectionObserver((entries) => {
+        for (const { target: video, isIntersecting } of entries) {
+          if (isIntersecting && !video.dataset.loaded) {
+            for (const source of video.querySelectorAll('source')) source.src = source.dataset.src;
+            video.dataset.loaded = '1';
+            video.load();
+            video.nextElementSibling.hidden = false;
+          }
+          if (isIntersecting && !video.dataset.paused) video.play().catch(() => {});
+          else if (!isIntersecting) video.pause();
+        }
+      }, { rootMargin: '200px' });
+      loops.forEach((video) => {
+        seen.observe(video);
+        const toggle = video.nextElementSibling;
+        toggle.addEventListener('click', () => {
+          const pausing = !video.paused;
+          if (pausing) { video.pause(); video.dataset.paused = '1'; } else { delete video.dataset.paused; video.play().catch(() => {}); }
+          toggle.setAttribute('aria-label', pausing ? 'Play the clip' : 'Pause the clip');
+          toggle.querySelector('path').setAttribute('d', pausing ? 'M7 5v14l12-7z' : 'M7 5h4v14H7zM13 5h4v14h-4z');
+        });
+      });
+    }
   </script>
 </body>
 </html>
