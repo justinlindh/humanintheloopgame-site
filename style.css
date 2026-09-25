@@ -146,7 +146,8 @@ p { margin: 0; }
 .era p { font-size: 15px; color: var(--ink-soft); }
 /* The growth timelapse above the eras, and the eras as a timeline under it. */
 .era-hero { margin: 0 0 28px; overflow: hidden; }
-.era-hero .loop-box video, .era-hero .loop-box img { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 520px; object-fit: cover; }
+/* The loop's headcount label sits in its top-left corner: crop mostly from the bottom. */
+.era-hero .loop-box video, .era-hero .loop-box img { display: block; width: 100%; aspect-ratio: 16 / 9; max-height: 620px; object-fit: cover; object-position: 50% 8%; }
 .era-hero figcaption { padding: 14px 22px 18px; font-size: 17px; color: var(--ink-soft); }
 .eras.timeline { position: relative; }
 .eras.timeline::before { content: ""; position: absolute; left: 66px; right: 66px; top: 66px; height: 6px; border-radius: 3px; background: var(--ink); opacity: 0.18; z-index: 0; }
