@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Human in the Loop</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // Unknown paths land on the home page; old game links with a seed go straight to the game.
+    const game = /[?&](seed|mock)=/.test(location.search);
+    location.replace((game ? 'https://play.humanintheloopgame.com/' : '/') + location.search + location.hash);
+  </script>
+</head>
+<body>
+  <p><a href="/">Human in the Loop</a></p>
+</body>
+</html>

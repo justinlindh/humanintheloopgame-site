@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human in the Loop: an AI-era company sim</title>
+  <meta name="description" content="A free browser management sim about running a software company through the AI era. Hire humans, ship products, survive the outages.">
+  <script>
+    // Old game links (humanintheloopgame.com/?seed=N) carry on to the game.
+    if (/[?&](seed|mock)=/.test(location.search)) location.replace('https://play.humanintheloopgame.com/' + location.search + location.hash);
+  </script>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="canonical" href="https://humanintheloopgame.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Human in the Loop">
+  <meta property="og:description" content="Run a software company through the AI era. Free in your browser.">
+  <meta property="og:url" content="https://humanintheloopgame.com/">
+  <meta property="og:image" content="https://humanintheloopgame.com/img/social-preview.png">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="640">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <img class="hero-bg" src="img/hq.webp" alt="A busy company headquarters in the game, seen from above" fetchpriority="high">
+    <nav class="hero-nav" aria-label="Sections">
+      <a class="btn" href="#trailer">Trailer</a>
+      <a class="btn" href="#features">Features</a>
+      <a class="btn" href="#eras">Eras</a>
+      <a class="btn" href="https://github.com/justinlindh/human-in-the-loop">GitHub</a>
+    </nav>
+    <div class="modal">
+      <div class="mhead"><span class="mtag">Now hiring</span> One human</div>
+      <div class="mbody">
+        <h1><img class="logo" src="img/logo.png" alt="Human in the Loop: an AI-era company sim" width="1716" height="754"></h1>
+        <p class="pitch">A management sim about running a software company through the AI era. Hire humans, ship products, survive the outages, and decide how much of the work the machines should do.</p>
+        <div class="cta-row">
+          <a class="btn primary big" href="https://play.humanintheloopgame.com/">Play free in your browser</a>
+          <span class="cta-note">Free. No install, no account. Best on a desktop browser.</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="trailer" class="trailer section">
+      <div class="wrap">
+        <h2>Thirty-nine seconds of company history</h2>
+        <div class="player" id="player">
+          <img src="img/trailer-poster.webp" alt="" loading="lazy">
+          <button class="play-btn" type="button" aria-label="Play the trailer" id="play-trailer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4v16l14-8z" fill="#2a2630"/></svg>
+          </button>
+        </div>
+        <p class="line">Survive the AI eras. First chatbots. Then agents. Then whatever the agents hire.</p>
+        <noscript><p class="line"><a href="media/trailer.mp4">Watch the trailer (MP4)</a></p></noscript>
+      </div>
+    </section>
+
+    <section id="features" class="section wrap">
+      <h2>What you do all day</h2>
+      <div class="features">
+        <article class="card feature">
+          <img src="img/garage.webp" alt="Two founders at their first desks in a garage" loading="lazy">
+          <div class="text">
+            <h3>Twenty years, five eras</h3>
+            <p>Start in a garage in 2019, before anyone has heard of a large language model. Then the chatbots arrive, then the agents, then everyone buys everyone.</p>
+          </div>
+        </article>
+        <article class="card feature">
+          <img src="img/lockdown.webp" alt="The office empty during lockdown, with everyone on a video call" loading="lazy">
+          <div class="text">
+            <h3>People, not headcount</h3>
+            <p>Everyone has a desk, a mood and opinions in Yak, the company chat. Automate the work they were proud of and they coast, burn out, then post a farewell in #general.</p>
+          </div>
+        </article>
+        <article class="card feature">
+          <img src="img/launch.webp" alt="Launch day reviews from the parody tech press" loading="lazy">
+          <div class="text">
+            <h3>Ship it, then read the reviews</h3>
+            <p>Pick a category and an angle, build, launch, and let TechCrunchy decide how you feel about it. Some combos are brilliant. Some are AI-powered spreadsheet number 47.</p>
+          </div>
+        </article>
+        <article class="card feature">
+          <div class="ph">Render coming: an incident, red alarm lighting, a staged decision prop</div>
+          <div class="text">
+            <h3>Call the outage a stress test</h3>
+            <p>Rogue agents, breaches and outages at 3am. Big decisions show up in the office as props: the letter on the desk, the rival's sign across the street, the smoke from the rack.</p>
+          </div>
+        </article>
+        <article class="card feature">
+          <img src="img/waffle.webp" alt="The Waffle Party: the winner at a spotlit waffle table while the team watches" loading="lazy">
+          <div class="text">
+            <h3>The Waffle Party is real</h3>
+            <p>Reward your team with waffles. And a mandatory dance break. Music night winners pick the genre, and nobody should have that much power.</p>
+          </div>
+        </article>
+        <article class="card feature cta">
+          <h3>Every great company starts in a garage.</h3>
+          <p>This one is still paying rent on it.</p>
+          <a class="btn primary" href="https://play.humanintheloopgame.com/">Start yours</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="screens" class="section wrap">
+      <h2>From the office</h2>
+      <div class="strip">
+        <figure>
+          <img src="img/hq.webp" alt="A busy headquarters with bookcases, plant walls and an office cat" loading="lazy">
+          <figcaption>HQ, with an office cat</figcaption>
+        </figure>
+        <figure>
+          <img src="img/agents.webp" alt="The Agents era arrives with its era card" loading="lazy">
+          <figcaption>A new era arrives</figcaption>
+        </figure>
+        <figure>
+          <img src="img/music.webp" alt="Music night on the office floor" loading="lazy">
+          <figcaption>Music night. Attendance is optional but strongly watched.</figcaption>
+        </figure>
+        <figure>
+          <img src="img/waffle.webp" alt="The Waffle Party" loading="lazy">
+          <figcaption>We are witnessing history</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="eras" class="section wrap">
+      <h2>One career, five eras</h2>
+      <div class="eras">
+        <div class="card era">
+          <div class="emblem"><img src="img/era.classic.svg" alt=""></div>
+          <span class="when">2019</span>
+          <h3>Classic SaaS</h3>
+          <p>Web apps, mobile apps, APIs, and a lot of pricing pages. Nobody has heard of a large language model.</p>
+        </div>
+        <div class="card era">
+          <div class="emblem"><img src="img/era.chatgbt.svg" alt=""></div>
+          <span class="when">about 2022</span>
+          <h3>The ChatGBT Moment</h3>
+          <p>A chatbot writes a sonnet about your churn rate and the whole industry loses its mind.</p>
+        </div>
+        <div class="card era">
+          <div class="emblem"><img src="img/era.agents.svg" alt=""></div>
+          <span class="when">about 2025</span>
+          <h3>Agents</h3>
+          <p>The software now does the job instead of helping with it. Someone has to watch it do the job.</p>
+        </div>
+        <div class="card era">
+          <div class="emblem"><img src="img/era.consolidation.svg" alt=""></div>
+          <span class="when">about 2029</span>
+          <h3>Consolidation</h3>
+          <p>Everyone is buying everyone. The vendors change their prices, their models, and their minds.</p>
+        </div>
+        <div class="card era">
+          <div class="emblem"><img src="img/era.plateau.svg" alt=""></div>
+          <span class="when">about 2034</span>
+          <h3>The Plateau</h3>
+          <p>Everyone has the same models now. What is left is people, taste, and whether anyone trusts you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <h2>The in-game press has opinions</h2>
+      <div class="press">
+        <blockquote class="card quote"><cite>TechCrunchy</cite><p>"Crashed twice during the demo. The demo was about reliability."</p></blockquote>
+        <blockquote class="card quote"><cite>The Vergence</cite><p>"It feels like someone actually cared."</p></blockquote>
+        <blockquote class="card quote"><cite>Wired-ish</cite><p>"It is a chat box wearing a trench coat."</p></blockquote>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="closer">
+        <h2>Human in the Loop. Someone has to be.</h2>
+        <a class="btn primary big" href="https://play.humanintheloopgame.com/">Play free in your browser</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <div>
+      <strong>Credits</strong>
+      A side project by Justin Lindh. Music made with ACE-Step. Sound effects from Kenney (CC0). Type set in Fredoka.
+    </div>
+    <div>
+      <strong>Links</strong>
+      <a href="https://github.com/justinlindh/human-in-the-loop">Source on GitHub</a><br>
+      <a href="https://github.com/justinlindh/human-in-the-loop/releases">Release notes</a>
+    </div>
+    <div>
+      <strong>Pre-alpha</strong>
+      An experimental side project: incomplete, unbalanced, and changing every week. Saves can break between builds. Every company in it is a parody.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('play-trailer').addEventListener('click', () => {
+      const video = document.createElement('video');
+      video.src = 'media/trailer.mp4';
+      video.controls = true;
+      video.autoplay = true;
+      video.playsInline = true;
+      document.getElementById('player').replaceChildren(video);
+      video.focus();
+    });
+  </script>
+</body>
+</html>
