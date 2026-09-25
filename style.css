@@ -116,11 +116,6 @@ p { margin: 0; }
 .loop-box { position: relative; }
 .loop { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: var(--cream-3); }
 .feature .loop-box { border-bottom: var(--bw) solid var(--ink); }
-/* A feature card without media: a warm panel with the text centred and a little larger. */
-.feature.textonly { background: #ffe7b0; justify-content: center; }
-.feature.textonly .text { padding: 32px 28px; gap: 12px; }
-.feature.textonly h3 { font-size: 28px; }
-.feature.textonly p { font-size: 18px; color: var(--ink); }
 .strip .loop-box .loop { aspect-ratio: 16 / 9; border: var(--bw) solid var(--ink); border-radius: 14px; box-shadow: var(--pop); }
 .loop-toggle {
   position: absolute; right: 10px; bottom: 10px; width: 44px; height: 44px; padding: 0;
