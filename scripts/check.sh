@@ -18,7 +18,7 @@ for page in "${pages[@]}" style.css; do
       echo "$page: missing $ref"
       missing=1
     fi
-  done < <(grep -oE '(src|href)="[^"]*"|url\([^)]*\)' "$page" | sed -E 's/^(src|href)="//; s/"$//; s/^url\(//; s/\)$//; s/^["'"'"']//; s/["'"'"']$//')
+  done < <(grep -oE '(src|href|poster)="[^"]*"|url\([^)]*\)' "$page" | sed -E 's/^(src|href|poster)="//; s/"$//; s/^url\(//; s/\)$//; s/^["'"'"']//; s/["'"'"']$//')
 done
 [ "$missing" -eq 0 ] || exit 1
 

@@ -111,10 +111,20 @@ p { margin: 0; }
 .feature .text { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px; }
 .feature h3 { font-size: 24px; }
 .feature p { font-size: 17px; color: var(--ink-soft); }
-.feature.cta { background: var(--blue); color: #fff; padding: 32px 28px; justify-content: center; gap: 18px; }
-.feature.cta h3 { font-size: 32px; text-shadow: 0 2px 0 var(--ink); }
-.feature.cta p { color: #fff; font-size: 19px; }
-.feature.cta .btn { align-self: flex-start; }
+/* Muted loops: a poster until on screen, then a small pause button in the corner. */
+.loop-box { position: relative; }
+.loop { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; background: var(--cream-3); }
+.feature .loop-box { border-bottom: var(--bw) solid var(--ink); }
+.strip .loop-box .loop { aspect-ratio: 16 / 9; border: var(--bw) solid var(--ink); border-radius: 14px; box-shadow: var(--pop); }
+.loop-toggle {
+  position: absolute; right: 10px; bottom: 10px; width: 44px; height: 44px; padding: 0;
+  border-radius: 50%; border: var(--bw) solid var(--ink); background: var(--cream); box-shadow: 0 3px 0 var(--ink);
+  display: flex; align-items: center; justify-content: center; cursor: pointer; opacity: 0.85;
+}
+.loop-toggle[hidden] { display: none; }
+.loop-toggle:hover { opacity: 1; }
+.loop-toggle:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; opacity: 1; }
+.loop-toggle svg { width: 20px; height: 20px; }
 .ph { background: var(--cream-3); display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; color: var(--ink-soft); font-size: 15px; }
 
 /* Screenshot strip: scrolls sideways inside itself, never the page. */
