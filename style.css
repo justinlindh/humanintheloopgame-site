@@ -94,7 +94,7 @@ p { margin: 0; }
 .player { position: relative; max-width: 1120px; margin: 0 auto; border: 4px solid var(--cream); border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; background: var(--ink); }
 .player img, .player video { width: 100%; height: 100%; object-fit: cover; }
 .play-btn {
-  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  position: absolute; left: 50%; top: 64%; transform: translate(-50%, -50%);
   width: clamp(72px, 9vw, 112px); aspect-ratio: 1; border-radius: 50%;
   background: var(--yellow); border: 4px solid var(--ink); box-shadow: 0 6px 0 var(--ink);
   display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0;
@@ -158,6 +158,10 @@ footer { border-top: 3px solid var(--line); padding-block: 32px 48px; display: g
 footer strong { display: block; color: var(--ink); font-size: 18px; margin-bottom: 6px; }
 footer a { color: var(--ink); }
 
+/* On wide screens the office sits right of the card. */
+@media (min-width: 901px) {
+  .hero-bg { transform-origin: left center; transform: scale(1.25); }
+}
 @media (max-width: 1100px) {
   .eras { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
