@@ -26,7 +26,11 @@
 </head>
 <body>
   <header class="hero">
-    <img class="hero-bg" src="img/hero.webp" alt="The company headquarters on its campus, with the city skyline behind" fetchpriority="high">
+    <video class="hero-bg loop" muted loop playsinline preload="none" poster="img/hero.webp" aria-hidden="true">
+      <source data-src="media/loops/hero.webm" type="video/webm">
+      <source data-src="media/loops/hero.mp4" type="video/mp4">
+    </video>
+    <button class="loop-toggle" type="button" aria-label="Pause the clip" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="#2a2630"/></svg></button>
     <nav class="hero-nav" aria-label="Sections">
       <a class="btn" href="#trailer">Trailer</a>
       <a class="btn" href="#features">Features</a>

@@ -122,6 +122,8 @@ p { margin: 0; }
   display: flex; align-items: center; justify-content: center; cursor: pointer; opacity: 0.85;
 }
 .loop-toggle[hidden] { display: none; }
+.hero-bg.loop { aspect-ratio: auto; height: 100%; }
+.hero > .loop-toggle { right: var(--gutter); bottom: 20px; z-index: 1; }
 .loop-toggle:hover { opacity: 1; }
 .loop-toggle:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; opacity: 1; }
 .loop-toggle svg { width: 20px; height: 20px; }
@@ -156,6 +158,10 @@ footer { border-top: 3px solid var(--line); padding-block: 32px 48px; display: g
 footer strong { display: block; color: var(--ink); font-size: 18px; margin-bottom: 6px; }
 footer a { color: var(--ink); }
 
+/* On wide screens the office sits right of the card. */
+@media (min-width: 901px) {
+  .hero-bg { transform-origin: left center; transform: scale(1.25); }
+}
 @media (max-width: 1100px) {
   .eras { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
@@ -164,6 +170,8 @@ footer a { color: var(--ink); }
   .eras { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hero { min-height: 0; flex-direction: column; align-items: stretch; }
   .hero-bg { position: relative; height: 56vw; }
+  .hero-bg.loop { height: 56vw; }
+  .hero > .loop-toggle { top: 12px; bottom: auto; }
   .hero-nav { position: absolute; }
   .modal { margin: -40px var(--gutter) 28px; width: auto; }
 }
