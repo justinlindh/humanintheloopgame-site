@@ -135,6 +135,9 @@ p { margin: 0; }
 .strip figure { margin: 0; flex: 0 0 min(520px, 82vw); scroll-snap-align: start; display: flex; flex-direction: column; gap: 10px; }
 .strip img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border: var(--bw) solid var(--ink); border-radius: 14px; box-shadow: var(--pop); }
 .strip figcaption { font-size: 16px; font-weight: 600; }
+/* The office gallery scrolls with its own arrows, swipe and keys, so its native scrollbar is hidden. */
+#office-gallery { scrollbar-width: none; }
+#office-gallery::-webkit-scrollbar { display: none; }
 .gallery-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
 .gallery-controls[hidden] { display: none; }
 .gallery-controls p { max-width: 38em; font-size: 16px; }
