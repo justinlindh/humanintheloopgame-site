@@ -228,8 +228,15 @@
     </section>
 
     <section id="office-life" class="section wrap">
-      <h2>For anyone who's worked in an office</h2>
-      <div class="strip">
+      <h2 id="life-heading">For anyone who's worked in an office</h2>
+      <div class="gallery-controls" hidden>
+        <p class="muted">Swipe or use the arrows.</p>
+        <div class="gallery-arrows">
+          <button class="btn gallery-arrow" type="button" aria-label="Previous clip" aria-controls="life-gallery" aria-disabled="true" data-gallery-direction="-1"><span aria-hidden="true">&#8592;</span></button>
+          <button class="btn gallery-arrow" type="button" aria-label="Next clip" aria-controls="life-gallery" data-gallery-direction="1"><span aria-hidden="true">&#8594;</span></button>
+        </div>
+      </div>
+      <div id="life-gallery" class="strip" aria-labelledby="life-heading" tabindex="0">
         <figure>
           <div class="loop-box">
             <video class="loop" muted loop playsinline preload="none" poster="img/loops/printer.webp" aria-hidden="true">
