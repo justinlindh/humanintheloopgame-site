@@ -21,11 +21,8 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 24
+      - run: npm ci
       - run: scripts/check.sh
-      - name: Stage the site
-        run: |
-          mkdir _site
-          cp -r index.html 404.html style.css *.js favicon.png .nojekyll img media play _site/
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
