@@ -95,3 +95,17 @@ test('does not guess which shadowed URL constant a fetch uses', t => {
   </script>`, { 'exists.json': '' });
   assert.deepEqual(result.errors, ['index.html: cannot resolve fetch URL statically']);
 });
+
+test('rejects parameter, mutable and destructured bindings that shadow constants', t => {
+  for (const code of [
+    `function load(endpoint) { fetch(endpoint); } load('missing.json');`,
+    `{ let endpoint = 'missing.json'; fetch(endpoint); }`,
+    `function load({ endpoint }) { fetch(endpoint); }`,
+    `function load([endpoint]) { fetch(endpoint); }`,
+    `function load(endpoint = 'missing.json') { fetch(endpoint); }`,
+    `try {} catch (endpoint) { fetch(endpoint); }`,
+  ]) {
+    const result = fixture(t, `<script>const endpoint = 'exists.json'; ${code}</script>`, { 'exists.json': '' });
+    assert.deepEqual(result.errors, ['index.html: cannot resolve fetch URL statically'], code);
+  }
+});

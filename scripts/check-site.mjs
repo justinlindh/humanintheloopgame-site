@@ -49,14 +49,36 @@ export function checkSite(root) {
   function script(text, base, source, data, scriptURL = base) {
     const tree = parseJS(text, { ecmaVersion: 'latest', sourceType: 'module' });
     const constants = new Map();
-    simple(tree, { VariableDeclaration(node) {
-      if (node.kind === 'const') for (const declaration of node.declarations) {
-        if (declaration.id.type === 'Identifier') {
-          const name = declaration.id.name;
-          constants.set(name, constants.has(name) ? null : declaration.init);
-        }
+    function binding(pattern, value = null) {
+      if (!pattern) return;
+      if (pattern.type === 'Identifier') {
+        constants.set(pattern.name, constants.has(pattern.name) ? null : value);
+      } else if (pattern.type === 'RestElement') binding(pattern.argument);
+      else if (pattern.type === 'AssignmentPattern') binding(pattern.left);
+      else if (pattern.type === 'ArrayPattern') pattern.elements.forEach(item => binding(item));
+      else if (pattern.type === 'ObjectPattern') {
+        for (const prop of pattern.properties) binding(prop.type === 'RestElement' ? prop.argument : prop.value);
       }
-    } });
+    }
+    function parameters(node) {
+      binding(node.id);
+      node.params.forEach(param => binding(param));
+    }
+    // Ambiguous names fail closed rather than guessing across lexical scopes.
+    simple(tree, {
+      VariableDeclaration(node) {
+        for (const declaration of node.declarations) {
+          binding(declaration.id, node.kind === 'const' ? declaration.init : null);
+        }
+      },
+      FunctionDeclaration: parameters,
+      FunctionExpression: parameters,
+      ArrowFunctionExpression: parameters,
+      CatchClause(node) { binding(node.param); },
+      ClassDeclaration(node) { binding(node.id); },
+      ClassExpression(node) { binding(node.id); },
+      ImportDeclaration(node) { node.specifiers.forEach(item => binding(item.local)); },
+    });
     const property = node => node?.computed ? node.property.value : node?.property?.name;
     function values(node, seen = new Set()) {
       if (!node || seen.has(node)) return null;
