@@ -135,6 +135,14 @@ p { margin: 0; }
 .strip figure { margin: 0; flex: 0 0 min(520px, 82vw); scroll-snap-align: start; display: flex; flex-direction: column; gap: 10px; }
 .strip img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border: var(--bw) solid var(--ink); border-radius: 14px; box-shadow: var(--pop); }
 .strip figcaption { font-size: 16px; font-weight: 600; }
+.gallery-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
+.gallery-controls[hidden] { display: none; }
+.gallery-controls p { max-width: 38em; font-size: 16px; }
+.gallery-arrows { display: flex; gap: 12px; }
+.gallery-arrow { width: 48px; height: 48px; padding: 0; font-size: 26px; }
+.gallery-arrow[aria-disabled="true"] { opacity: 0.45; cursor: default; transform: none; box-shadow: var(--pop); background: var(--cream); }
+.strip { overscroll-behavior-x: contain; }
+.strip:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; border-radius: 4px; }
 
 /* Eras */
 .eras { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 20px; }

@@ -147,8 +147,15 @@
     </section>
 
     <section id="screens" class="section wrap">
-      <h2>From the office</h2>
-      <div class="strip">
+      <h2 id="office-heading">From the office</h2>
+      <div class="gallery-controls" hidden>
+        <p id="office-help" class="muted">Swipe or use the arrows. With the gallery focused, use Left/Right or Home/End.</p>
+        <div class="gallery-arrows">
+          <button class="btn gallery-arrow" type="button" aria-label="Previous office image" aria-controls="office-gallery" aria-disabled="true" data-gallery-direction="-1"><span aria-hidden="true">&#8592;</span></button>
+          <button class="btn gallery-arrow" type="button" aria-label="Next office image" aria-controls="office-gallery" data-gallery-direction="1"><span aria-hidden="true">&#8594;</span></button>
+        </div>
+      </div>
+      <section id="office-gallery" class="strip" aria-labelledby="office-heading" tabindex="0">
         <figure>
           <img src="img/garage.webp" alt="The Garage on a suburban street, two founders at their first desks" loading="lazy">
           <figcaption>Day one, in the Garage</figcaption>
@@ -171,7 +178,7 @@
           <img src="img/hq-night.webp" alt="HQ at night, lit from inside against the city" loading="lazy">
           <figcaption>HQ, after hours</figcaption>
         </figure>
-      </div>
+      </section>
     </section>
 
     <section id="eras" class="section wrap">
@@ -282,6 +289,7 @@
     </div>
   </footer>
 
+  <script src="gallery.js"></script>
   <script>
     document.getElementById('play-trailer').addEventListener('click', () => {
       const video = document.createElement('video');
