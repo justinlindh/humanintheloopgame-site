@@ -3,13 +3,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test scripts/check-site.test.mjs"
+    "test": "node --test scripts/check-site.test.mjs",
+    "preview": "node scripts/preview.mjs"
   },
   "devDependencies": {
     "acorn": "8.18.0",
     "acorn-walk": "8.3.5",
     "html-validate": "9.7.1",
     "parse-srcset": "1.0.2",
-    "parse5": "8.0.1"
+    "parse5": "8.0.1",
+    "playwright": "1.63.0"
   }
 }
