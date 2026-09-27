@@ -140,7 +140,9 @@ p { margin: 0; }
 .strip[data-controlled]::-webkit-scrollbar { display: none; }
 .gallery-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; }
 .gallery-controls[hidden] { display: none; }
-.gallery-controls p { max-width: 38em; font-size: 16px; }
+.gallery-arrows { margin-left: auto; }
+/* Read by screen readers, not shown: the arrows explain themselves on screen. */
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 .gallery-arrows { display: flex; gap: 12px; }
 .gallery-arrow { width: 48px; height: 48px; padding: 0; font-size: 26px; }
 .gallery-arrow[aria-disabled="true"] { opacity: 0.45; cursor: default; transform: none; box-shadow: var(--pop); background: var(--cream); }
