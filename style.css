@@ -109,6 +109,8 @@ p { margin: 0; }
 .features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
 .feature { display: flex; flex-direction: column; }
 .feature img, .feature .ph { aspect-ratio: 16 / 10; width: 100%; object-fit: cover; border-bottom: var(--bw) solid var(--ink); }
+/* A still whose subject starts at its left edge keeps that edge when the card crops it. */
+.feature img.pin-left { object-position: left center; }
 .feature .text { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px; }
 .feature h3 { font-size: 24px; }
 .feature p { font-size: 17px; color: var(--ink-soft); }
