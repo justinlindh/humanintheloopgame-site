@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -38,6 +38,13 @@ test('media is a still that exists, or a feature-media link', () => {
       }
     }
   }
+});
+
+test('every file under changelog/media is used by an entry', () => {
+  const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(resolve(dir, e.name)) : [resolve(dir, e.name)]));
+  const used = new Set(days.flatMap((d) => d.items.flatMap((i) => (i.media ?? []).map((m) => resolve(root, m.src)))));
+  const unused = walk(resolve(root, 'media')).filter((f) => !used.has(f));
+  assert.deepEqual(unused, [], 'files that ship but no entry shows');
 });
 
 test('the text follows the house style', () => {
