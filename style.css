@@ -159,6 +159,17 @@ p { margin: 0; }
 .era .when { font-size: 14px; font-weight: 600; color: var(--ink-soft); }
 .era h3 { font-size: 21px; }
 .era p { font-size: 15px; color: var(--ink-soft); }
+.era-lead { max-width: 62ch; margin: 0 0 24px; font-size: 18px; color: var(--ink-soft); }
+/* The early starts' offices, two to a row (one on a phone) and the wardrobe across both. */
+.era-stills { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin: 0 0 36px; }
+.era-stills figure { margin: 0; overflow: hidden; }
+.era-stills img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+.era-stills figcaption { padding: 12px 18px 16px; font-size: 16px; color: var(--ink-soft); }
+.era-stills figcaption strong { color: var(--ink); }
+.era-still-wide { grid-column: 1 / -1; }
+.era-still-wide img { max-height: 520px; }
+.era-sub { margin: 0 0 18px; font-size: 22px; }
+@media (max-width: 700px) { .era-stills { grid-template-columns: 1fr; } .era-lead { font-size: 17px; } }
 /* The growth timelapse above the eras, and the eras as a timeline under it. */
 .era-hero { margin: 0 0 28px; overflow: hidden; }
 /* The loop's headcount label sits in its top-left corner: crop mostly from the bottom. */
