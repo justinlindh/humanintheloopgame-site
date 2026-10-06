@@ -38,8 +38,7 @@
           "#1457",
           "#1455",
           "#1460"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Company",
@@ -51,7 +50,7 @@
         ],
         "media": [
           {
-            "src": "https://raw.githubusercontent.com/justinlindh/human-in-the-loop/feature-media/office-dotcom_banner.webp",
+            "src": "media/2026-10-05/office-dotcom_banner.webp",
             "kind": "image",
             "caption": "The Banner Rotation Server"
           }
@@ -66,8 +65,7 @@
           "#1410",
           "#1413",
           "#1420"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Moments",
@@ -76,8 +74,7 @@
         "refs": [
           "#1485",
           "#1531"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Moments",
@@ -86,8 +83,7 @@
         "refs": [
           "#1543",
           "#1545"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Moments",
@@ -96,8 +92,7 @@
         "refs": [
           "#1463",
           "#1471"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Art",
@@ -126,8 +121,7 @@
         "body": "The hearing summons is a fat red envelope with a gold seal, and its reader holds it up so you can see it. When the coffee machine dies, the fumes now rise from the espresso machine instead of an empty corner, and the smoke lingers while the staff fan it away.",
         "refs": [
           "#1476"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "People",
@@ -138,8 +132,7 @@
           "#1491",
           "#1500",
           "#1528"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Sound",
@@ -148,8 +141,7 @@
         "refs": [
           "#1537",
           "#1535"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Fixes",
@@ -158,8 +150,7 @@
         "refs": [
           "#1477",
           "#1496"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Economy",
@@ -167,8 +158,7 @@
         "body": "The pre-internet start was scoring about 8 percent above its intended share of a Classic run, so its score factor dropped from 0.72 to 0.67. It now lands at 0.955 of Classic against a target of 0.95, and the other seven starts were left alone. Its exit bar stays at 1.3 times Classic's.",
         "refs": [
           "#1551"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Behind the scenes",
@@ -179,79 +169,6 @@
           "#1553",
           "#1557",
           "#1560"
-        ],
-        "media": []
-      },
-      {
-        "area": "Art",
-        "title": "New art, rendered clean",
-        "body": "The new objects and looks from this day, each on its own with a plain background. Things that come in levels show all three side by side.",
-        "media": [
-          {
-            "src": "media/2026-10-05/eras-on-by-default.webp",
-            "kind": "image",
-            "caption": "Era starts are on by default: a dot-com and a pre-internet office, each with its period props."
-          },
-          {
-            "src": "media/2026-10-05/era-clothes.webp",
-            "kind": "image",
-            "caption": "Period clothes for staff in each era start."
-          },
-          {
-            "src": "media/2026-10-05/party-cheer.webp",
-            "kind": "image",
-            "caption": "Company party, before and after: seated staff now stand behind their chairs and cheer at the camera under a bigger banner."
-          },
-          {
-            "src": "media/2026-10-05/boombox.webp",
-            "kind": "image",
-            "caption": "The boombox: a boombox on a crate in the Garage, on a cabinet on the Office Floor, a record console at HQ."
-          },
-          {
-            "src": "media/2026-10-05/boombox-in-office.webp",
-            "kind": "image",
-            "caption": "The boombox in the office, with music notes while it plays."
-          },
-          {
-            "src": "media/2026-10-05/boombox-hq-close.webp",
-            "kind": "image",
-            "caption": "The HQ record console, its record turning while the radio plays."
-          },
-          {
-            "src": "media/2026-10-05/boombox-taste.webp",
-            "kind": "image",
-            "caption": "Staff react to the station: a note with a heart, or a struck-through note."
-          },
-          {
-            "src": "media/2026-10-05/props-sticky_notes.webp",
-            "kind": "image",
-            "caption": "Decision prop, before and after: the sticky notes get a memo board covered in notes."
-          },
-          {
-            "src": "media/2026-10-05/props-mug_pile.webp",
-            "kind": "image",
-            "caption": "Decision prop, before and after: the founder's mug pile is a row of mugs with a leaning tower on top."
-          },
-          {
-            "src": "media/2026-10-05/props-binder.webp",
-            "kind": "image",
-            "caption": "Decision prop, before and after: three ring binders labelled POLICY, POLICY and FINAL."
-          },
-          {
-            "src": "media/2026-10-05/props-gift_cards.webp",
-            "kind": "image",
-            "caption": "Decision prop, before and after: a fan of gift cards in a stand, each with a big $."
-          },
-          {
-            "src": "media/2026-10-05/props-old_sign.webp",
-            "kind": "image",
-            "caption": "Decision prop, before and after: the alumni reunion's old logo sign, twice the size."
-          },
-          {
-            "src": "media/2026-10-05/props-mug_typo.webp",
-            "kind": "image",
-            "caption": "Decision prop, before and after: the SOFTWEAR mug reads SOFT / WEAR with the typo in red."
-          }
         ]
       }
     ]
