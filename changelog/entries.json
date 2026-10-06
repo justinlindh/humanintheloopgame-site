@@ -6,7 +6,7 @@
       {
         "area": "Eras",
         "title": "Every new game can start in a different decade",
-        "body": "Era starts are on for everyone now. The founding screen still defaults to a Classic 2019 company, but one tap on Change opens eight starts, from a pre-internet company shipping software in boxes, through the dot-com boom and its bust, Y2K, Web 2.0, and on into the AI eras and the Plateau. Each start dresses the office for its decade: CRT monitors and cubicles, a BOOM/BUST chart on the wall, a Y2K countdown clock, period clothes on the staff, and a street outside that changes from payphones and video-rental signs to parcel drones and a data centre going up next door. Later starts score a little less than the full Classic career, so the long game stays the prestige run: a pre-internet start scores at 0.72 of Classic that day, dot-com at 0.61 and Web 2.0 at 0.56.",
+        "body": "Era starts are on for everyone now. The founding screen still defaults to a Classic 2019 company, but one tap on Change opens eight starts: pre-internet software in boxes, the dot-com boom, Web 2.0, Classic, the ChatGBT moment, Agents, Consolidation and the Plateau. The early starts carry on through the bust and Y2K. Each start dresses the office for its decade: CRT monitors and cubicles, a BOOM/BUST chart on the wall, a Y2K countdown clock, period clothes on the staff, and a street outside that changes from payphones and video-rental signs to parcel drones and a data centre going up next door. Some earlier starts score less than the full Classic career, so the long game stays the prestige run: a pre-internet start's score is multiplied by 0.67, dot-com by 0.61 and Web 2.0 by 0.56.",
         "refs": [
           "#5",
           "#1540",
@@ -72,7 +72,7 @@
       {
         "area": "Moments",
         "title": "Closing a big deal rings a bell",
-        "body": "When a notable deal closes, the seller spins their chair toward you and rings a silver handbell beside their head, two quick shakes, under a sparkle for about 2.5 seconds while the two nearest seated coworkers turn and clap. It replaces the cash register sound, and the bell only plays when you can actually see it rung. The old fist pump never read from above: chibi arms can't reach past their own eyes.",
+        "body": "When a notable deal closes, the seller spins their chair toward you and rings a silver handbell beside their head, two quick shakes, under a sparkle for about 2.6 seconds while the two nearest seated coworkers turn and clap. It replaces the cash register sound, and the bell only plays when you can actually see it rung. The old fist pump never read from above: chibi arms can't reach past their own eyes.",
         "refs": [
           "#1485",
           "#1531"
@@ -92,7 +92,7 @@
       {
         "area": "Moments",
         "title": "Moments are framed the same at every office size",
-        "body": "At HQ, decision moments used to show far more floor than in the garage or on the Office Floor, so people were tiny. Moments now frame about the same number of metres at every stage, so the consultants and the hearing summons come in closer. The closest manual zoom scales with the office as well, up to about 5.2 in a late HQ, and phones in portrait no longer get pushed to maximum zoom on every moment. The bridge loan's red screen now also pulses the room light red and puts a red vignette on the screen edges, even in a wide shot.",
+        "body": "At HQ, decision moments used to show far more floor than in the garage or on the Office Floor, so people were tiny. Moments now frame about the same number of metres at every stage, so the consultants and the hearing summons come in closer. The closest manual zoom scales with the office as well, so a bigger office goes in closer, and phones in portrait no longer get pushed to maximum zoom on every moment. The bridge loan's red screen now also pulses the room light red and puts a red vignette on the screen edges, even in a wide shot.",
         "refs": [
           "#1463",
           "#1471"
@@ -233,7 +233,7 @@
       {
         "area": "Eras",
         "title": "A pre-internet start: boxed software and DeskNet",
-        "body": "A new founding option starts the company in the pre-internet era with boxed software. Choosing it adds $240K to your funding and gives you three garage desks. In Build you pick a boxed release, then order 100, 500 or 1,000 copies in Reports > Inventory. Copies cost $8 each to make and take two playable weeks to arrive. They sell for $250 each, minus the retailer's 30% share, and reviews below 6 send back one copy in twenty. Mailed patches cost $2 per installed copy. Installed copies slowly age out, one in 520 a week, so owners buy the next version and a product that has sold to its whole market sells again. It is deliberately harder to survive the dot-com bust from here: in the dev's test runs the balanced bot reached Web 2.0 in 169 of 200 games, against 185 from a two-founder dot-com start. DeskNet, a green terminal chat, replaces the usual chat. All of this is still behind the eras switch.",
+        "body": "A new founding option starts the company in the pre-internet era with boxed software. Choosing it adds $240K to your funding and gives you three garage desks. In Build you pick a boxed release, then order 100, 500 or 1,000 copies in Reports > Inventory. Copies cost $8 each to make and take two playable weeks to arrive. They sell for $250 each, minus the retailer's 30% share, and reviews below 6 send back one copy in twenty. Mailed patches cost $2 per installed copy. Installed copies slowly age out, one in 520 a week, so owners buy the next version and a product that has sold to its whole market sells again. It is deliberately harder to survive the dot-com bust from here: in the dev's test runs the balanced bot reached Web 2.0 in 181 of 200 games, against 185 from a two-founder dot-com start. DeskNet, a green terminal chat, replaces the usual chat. All of this is still behind the eras switch.",
         "refs": [
           "#1270",
           "#1392"
@@ -249,7 +249,7 @@
       {
         "area": "Eras",
         "title": "Consolidation and Plateau starts, optional takeovers, the long career",
-        "body": "Two more founding options: Consolidation and the Plateau, each a four-desk garage with that era's tools and extra funding ($390K and $540K). Their scores count for 28% and 19% of a Classic run. In ChatGBT and Agents you can instead take over a company the game already built, with a score worth 50% of a Classic run in ChatGBT and 30% in Agents. The pre-internet and Classic cards name their route (The Long Career or Classic Career), and a finished long career is titled \"The Long Career, complete\" on the anniversary screen. The market also stops growing after 2039, so a Plateau start no longer faces rivals and project sizes that keep inflating for decades.",
+        "body": "Two more founding options: Consolidation and the Plateau, each a four-desk garage with that era's tools and extra funding ($390K and $540K). Their scores count for 28% and 19% of a Classic run. In ChatGBT and Agents you can instead take over a company the game already built, with a score worth 55% of a Classic run in ChatGBT and 30% in Agents. The pre-internet and Classic cards name their route (The Long Career or Classic Career), and a finished long career is titled \"The Long Career, complete\" on the anniversary screen. The market also stops growing after 2039, so a Plateau start no longer faces rivals and project sizes that keep inflating for decades.",
         "refs": [
           "#1309",
           "#1344",
@@ -271,7 +271,7 @@
       {
         "area": "Decisions",
         "title": "Sales you can see and hear",
-        "body": "Closed deals now show up. A week with a first sale for a product, or sales well above the company's own recent pace, toasts the salesperson, the customer (a parody company name) and the product, and clicking it opens that product in Reports. The pace test compares against the trailing 26 weeks, so small and big companies both get beats instead of the big ones getting a flood. Smaller weeks leave a quiet \"Sales: N new customers this week\" line in the wins channel. Boxed sales read \"Retail moved N copies\". A notable deal rings a cash register, at most every 30 seconds.",
+        "body": "Closed deals now show up. A week with a first sale for a product, or sales above the company's own recent pace, toasts the salesperson, the customer (a parody company name) and the product, and clicking it opens that product in Reports. The pace test compares against the trailing 26 weeks, so small and big companies both get beats instead of the big ones getting a flood. Smaller weeks leave a quiet \"Sales: N new customers this week\" line in the wins channel. Boxed sales read \"Retail moved N copies\". A notable deal rings a cash register, at most every 30 seconds.",
         "refs": [
           "#1326",
           "#1356",
@@ -292,7 +292,7 @@
       {
         "area": "Art",
         "title": "A street outside the modern-era office",
-        "body": "Classic through Plateau get their own street: delivery cyclists with insulated boxes, hire scooters on the pavement and a data centre where the default camera can see it on every stage. It changes with the era. Classic shows a hoarded plot with a COMING SOON board, ChatGBT a building site with crane lights that read at night, Agents and Consolidation a finished windowless data centre with parcel drones overhead, and Plateau a dark, ivy-grown one with half the cars. The garage's neighbour houses also get roofs that sit on their walls instead of sinking into them.",
+        "body": "Classic through Plateau get their own street: cyclists (delivery riders with insulated boxes in most eras), hire scooters on the pavement in Classic, ChatGBT and Agents, and a data centre where the default camera can see it on every stage. It changes with the era. Classic shows a hoarded plot with a COMING SOON board, ChatGBT a building site with crane lights that read at night, Agents and Consolidation a finished windowless data centre with parcel drones overhead, and Plateau a dark, ivy-grown one with fewer cars. The garage's neighbour houses also get roofs that sit on their walls instead of sinking into them.",
         "refs": [
           "#1308",
           "#1323",
@@ -417,7 +417,7 @@
       {
         "area": "Eras",
         "title": "Found your company in a different era",
-        "body": "Behind the ?eras preview switch, the founding screen now offers Classic, ChatGBT or Agents starts. Every start begins in the Garage with two founders and a full twenty-year career. ChatGBT adds $90K and a third desk, and Agents adds $240K and four desks. Each era card shows its expected score as a share of Classic's, and each start's IPO and acquisition bars are scaled so it exits about as often as Classic: ChatGBT needs 0.8 times Classic's MRR and Agents 0.7 times. Agents also gets five years of runway, because incident severity is capped for its first 260 weeks, so it no longer collapses early. Without the switch, founding looks the same as before.",
+        "body": "Behind the ?eras preview switch, the founding screen now offers Classic, ChatGBT or Agents starts. Every start begins in the Garage with two founders and a full career of twenty modern years (the dot-com and Web 2.0 starts add their own years first). ChatGBT adds $90K and a third desk, and Agents adds $240K and four desks. Each era card shows its expected score as a share of Classic's, and each start's IPO and acquisition bars are scaled so it exits about as often as Classic: ChatGBT needs 0.8 times Classic's MRR and Agents 0.7 times. Agents also gets five years of milder incidents: severity is capped for its first 260 weeks. Without the switch, founding looks the same as before.",
         "refs": [
           "#1239",
           "#1243",
@@ -440,7 +440,7 @@
       {
         "area": "Eras",
         "title": "The dot-com boom and bust",
-        "body": "With ?eras on, you can found a company in the dot-com years: two founders, four desks and $250K in the bank. Customer acquisition speeds up in week 26. In week 78 you can stay private for brand, or take a $180K public float that dilutes your score by 20% and costs you when the bust lands. A warning arrives in week 104, and in week 156 the bust hits. Preserving cash loses 25% of your live-product customers, while calling every customer loses 10% and costs the lesser of $20K and 10% of your cash. Public companies pay the lesser of $50K and 20% of cash first. In 1999, Build > Projects offers Y2K compliance contracts at 40 work points and $18K each, up to three, and Clive offers to cover New Year's Eve at triple rate for $9K, with no extra protection. At the rollover staff gather, count down, and one printer spits out an invoice dated 01/01/1900. Week 208 continues into Classic.",
+        "body": "With ?eras on, you can found a company in the dot-com years: two founders, four desks and $140K on top of your funding. Customer acquisition speeds up in week 26. In week 78 you can stay private for brand, or take a $180K public float that dilutes your score by 20% and costs you when the bust lands. A warning arrives in week 104, and in week 156 the bust hits. Preserving cash loses 25% of your live-product customers, while calling every customer loses 10% and costs the lesser of $20K and 10% of your cash. Public companies pay the lesser of $50K and 20% of cash first. In 1999, Build > Projects offers Y2K compliance contracts at 40 work points and $18K each, up to three, and Clive offers to cover New Year's Eve at triple rate for $9K, with no extra protection. At the rollover staff gather, count down, and one printer spits out an invoice dated 01/01/1900. At week 208 the company carries on into the Web 2.0 years, then Classic.",
         "refs": [
           "#1240",
           "#1268"
@@ -450,7 +450,7 @@
       {
         "area": "Eras",
         "title": "Web 2.0 and the browser years",
-        "body": "A Web 2.0 start gives you three garage desks, $90K extra funding and the Internet Exploder 6 years. New web projects carry 20% extra compatibility work, or 8% with a senior Legacy Whisperer on the team, and you see the estimate before you start. Engineers earn credit only for launches they actually worked on, and three compatible launches qualify a senior engineer for the trait. Three decisions come up. Funding the QA bench costs $8K and cuts tech debt by 5. For the Active-ish control, a sandbox costs $5K and cuts debt by 2, an exception adds 5 debt, and an ordinary form does nothing. Patching the grey PNG loader costs $1K and adds 3 polish to a compatible product. Your company carries over intact when the era hands off to Classic.",
+        "body": "A Web 2.0 start gives you three garage desks, $90K extra funding and the Internet Exploder 6 years. New web projects carry 20% extra compatibility work, or 8% with a senior Legacy Whisperer on the team, and you see the estimate before you start. Engineers earn credit only for launches they actually worked on, and three compatible launches qualify a senior engineer for the trait. Three decisions come up. Funding the QA bench costs $8K and cuts comprehension debt by 5. For the Active-ish control, a sandbox costs $5K and cuts comprehension debt by 2, an exception adds 5, and an ordinary form does nothing. Patching the grey PNG loader costs $1K and adds 3 polish to a compatible product. Your company carries over intact when the era hands off to Classic.",
         "refs": [
           "#1241",
           "#1274"
@@ -469,7 +469,7 @@
       {
         "area": "Eras",
         "title": "Score factors and exit bars re-tuned",
-        "body": "Each era start's score is now set so it lands below the Classic path: about 90% of Classic for dot-com, 75% for Web 2.0, 67% for ChatGBT and 40% for Agents. The IPO and acquisition MRR bars scale to match, at 1.35 times Classic's for dot-com, 1.2 for Web 2.0, 0.8 for ChatGBT and 0.7 for Agents. Extra cash and desks were tried and did not raise exits, so the starting kits stay as they were. Saved companies keep the score factor they were founded with, and the Retire panel's IPO requirement now shows the scaled bar.",
+        "body": "Each era start's score is now set so it lands below the Classic path: about 90% of Classic for dot-com, 75% for Web 2.0, 67% for ChatGBT and 40% for Agents. The IPO and acquisition MRR bars scale to match, at 1.35 times Classic's for dot-com, 1.2 for Web 2.0, 0.8 for ChatGBT and 0.7 for Agents. Saved companies keep the score factor they were founded with, and the Retire panel's IPO requirement now shows the scaled bar.",
         "refs": [
           "#1289",
           "#1290"
@@ -699,7 +699,7 @@
       {
         "area": "Moments",
         "title": "The printer lives in the kitchen",
-        "body": "The printer jam moment is now guaranteed. It happens once in every game, somewhere in the first year on the Office Floor, instead of being a rare roll. Its three choices are unchanged: taking it out back costs $2,500 and gives the team +6 meaning, calling the repair line costs $300, and printing less cuts Output by 1% for 13 weeks and leaves a red OUT OF ORDER sign up for good. From the Office Floor on, the kitchen has a printer that shows READY, blinks, and hums through a print job now and then. It has no stats. The jam happens to that same printer, and afterwards the wreck, the repaired printer or the sign takes its place.",
+        "body": "The printer jam moment is now guaranteed. It happens once in every game, between 8 and 48 weeks after you reach the Office Floor, instead of being a rare roll. Its three choices are unchanged: taking it out back costs $2,500 and gives the team +6 meaning, calling the repair line costs $300, and printing less cuts Output by 1% for 13 weeks and leaves a red OUT OF ORDER sign up for good. From the Office Floor on, the kitchen has a printer that shows READY, blinks, and hums through a print job now and then. It has no stats. The jam happens to that same printer, and afterwards the wreck, the repaired printer or the sign takes its place.",
         "refs": [
           "#1085",
           "#1025",
@@ -793,7 +793,7 @@
       {
         "area": "Economy",
         "title": "Tech debt that builds and says why",
-        "body": "Comprehension debt is now called tech debt everywhere, and it no longer sits at zero all game. It builds from project work, fastest with junior engineers, 1.5 times faster again under Crunch Mode, and it settles where paydown catches up, so a mid-game company carries 20 to 40. Code Comprehension Reviews take 2.7% of the debt off each week, each senior engineer takes off a little more, and an engineer on maintenance takes off 0.2%. The Big Refactor now clears 60% of the debt instead of a flat 15. High debt hurts: security posture drops half a point per point of debt, rogue agents get more likely, and outages get harder to fix. The HUD meter shows last week's change and its tooltip breaks that down by source.",
+        "body": "Comprehension debt is now called tech debt everywhere, and it no longer sits at zero all game. It builds from project work, fastest with junior engineers, 1.5 times faster again under Crunch Mode, and it settles where paydown catches up, so it holds at a level instead of climbing without limit. Code Comprehension Reviews take 2.7% of the debt off each week, each senior engineer takes off a little more, and an engineer on maintenance takes off 0.2%. The Big Refactor now clears 60% of the debt instead of a flat 15. High debt hurts: security posture drops half a point per point of debt, rogue agents get more likely, and outages get harder to fix. The HUD meter shows last week's change and its tooltip breaks that down by source.",
         "refs": [
           "#950",
           "#954",
@@ -866,7 +866,7 @@
       {
         "area": "Yak",
         "title": "Styled memes",
-        "body": "Yak gets memes drawn in the game's own style: Is this AGI?, a distracted founder, the bill, the plan, torn between two buttons, Change my mind with the printer, and a desk-lamp galaxy brain. The chatbot jokes show up once the ChatGBT era starts. A Yak reply that opens something now opens it.",
+        "body": "Yak gets memes drawn in the game's own style: Is this AGI?, a distracted founder, the bill, the plan, torn between two buttons, Change my mind with the printer, and a desk-lamp galaxy brain. Three of them (Is this AGI?, the distracted founder, the bill) show up once the ChatGBT era starts, and the plan waits for the Agents era. A Yak reply that opens something now opens it.",
         "refs": [
           "#879",
           "#885",
@@ -894,7 +894,7 @@
       {
         "area": "Fixes",
         "title": "Smaller fixes",
-        "body": "Vacations are only postponed by an outage, Crunch Mode or a real push like founder hustle, and the toast names which. A banner on the wall no longer blocks them. Once the Incentives Program ladder is climbed, music night comes back every third award instead of every one. The first arcade level is now an actual arcade cabinet, and company parties show a banner saying what they celebrate. The desk squeeze prompt is about a cramped office, not a missing desk. Moving an upgraded item previews it at its own level. The office move plays in view instead of behind the Office panel. Era carpets are quieter so team mats read, and ping pong players hold paddles.",
+        "body": "Vacations are only postponed by an outage, Crunch Mode or a real push like founder hustle, and the toast names which. A banner on the wall no longer blocks them. Once the Incentives Program ladder is climbed, music night comes back every third award instead of every one. The first arcade level is now an actual arcade cabinet, and company parties show a banner saying what they celebrate. The desk squeeze prompt is about a full office blocking hires, not a missing desk. Moving an upgraded item previews it at its own level. The office move plays in view instead of behind the Office panel. Era carpets are quieter so team mats read, and ping pong players hold paddles.",
         "refs": [
           "#872",
           "#916",
@@ -969,7 +969,7 @@
       {
         "area": "Decisions",
         "title": "Oat milk, kielbasa, tabs or spaces and squish",
-        "body": "The other nods are smaller. Four thousand pounds of oat milk arrives when a procurement agent over-orders, but only in the first 26 weeks of the Agents era and only for a company with at least eight staff and 25% ops automation, so it stays uncommon. Send it back for $3,000, donate it for 2 brand, or keep it and everyone's stamina drains 10% slower for 52 weeks. Is it kielbasa? is a junior's app that is right half the time: ship it for 15 hype that fades by 8 six weeks later, sell the tech for $25K, or keep it as a demo for a boost to their meaning. Tabs or spaces is a running joke between two engineers in Yak that ends in a ruling, where each way to settle it costs the team a point of meaning. Squish is a new research node with a launch post citing a score nobody can explain.",
+        "body": "The other nods are smaller. Four thousand pounds of oat milk arrives when a procurement agent over-orders, but only in the first 26 weeks of the Agents era and only for a company with at least eight staff and 25% ops automation, so it stays uncommon. Send it back for $3,000, donate it for 2 brand, or keep it and everyone's stamina drains 10% slower for 52 weeks. Is it kielbasa? is a junior's app that is right half the time: ship it for 15 hype that fades by 8 six weeks later, sell the tech for $25K, or keep it as a demo for a boost to their meaning. Tabs or spaces is a running joke between two engineers in Yak that ends in a ruling, where each way to settle it costs the team a point of meaning. Squish is a new internal-tools research node (450 points, after CI/CD) that adds 5% reliability and slows health decay; when it ships, a #wins post cites a Squish Score nobody can explain.",
         "refs": [
           "#698",
           "#719"
@@ -985,7 +985,7 @@
       {
         "area": "Pacing",
         "title": "No two popups back to back",
-        "body": "A new product launch or an unlock card now counts as a pausing moment, the same as a decision, so the game waits before raising the next decision. Random events that land inside that pause are held, up to two, and spent once the gap clears, so events do not thin out. Incidents and cyber attacks still interrupt right away. Version updates do not count, because that left decisions waiting too often.",
+        "body": "A new product launch or an unlock card now counts as a pausing moment, the same as a decision, so the game waits three weeks before raising the next decision. Random events that land inside that pause are held, up to two, and spent once the gap clears, so events do not thin out. Incidents and cyber attacks still interrupt right away. Version updates do not count, because that left decisions waiting too often.",
         "refs": [
           "#647"
         ],
@@ -994,7 +994,7 @@
       {
         "area": "Yak",
         "title": "Picture memes in Yak",
-        "body": "Sharing a meme now posts an actual picture, drawn with the game's own people and office: This is fine, Two buttons, Tabs chart, Always config, Reject/approve tests and Expanding review. Outages pick This is fine, and agent jokes wait for the Agents era. Tap a picture to enlarge it, and if the file is missing you get the caption as text.",
+        "body": "Sharing a meme now posts an actual picture, drawn with the game's own people and office: This is fine, Two buttons, Tabs chart, Always config, Tests by the agent and Expanding review. Outages pick This is fine, and agent jokes wait for the Agents era. Tap a picture to enlarge it, and if the file is missing you get the caption as text.",
         "refs": [
           "#706",
           "#707",
@@ -1046,7 +1046,7 @@
       {
         "area": "Office",
         "title": "The office reacts to what happens",
-        "body": "When a quick Yak post backfires, someone facepalms for about two seconds with their hand over their eyes, and nearby people turn to look with an exclamation or a sweat. When you place a new toy, the nearest free people (two for a pair table, one for anything else) walk over to try it within a second or so, and keep looking for 20 seconds if nobody is free. Passing staff also stop to scratch an office dog or cat for three seconds before walking on.",
+        "body": "When a quick Yak post backfires, someone facepalms for about two seconds with their hand over their eyes, and nearby people turn to look with an exclamation or a sweat. When you place a new toy, the nearest free people (two for a pair table, one for anything else) walk over to try it a moment later, and keep looking for 20 seconds if nobody is free. Passing staff also stop to scratch an office dog or cat for three seconds before walking on.",
         "refs": [
           "#700",
           "#720",
@@ -1075,7 +1075,7 @@
       {
         "area": "Interface",
         "title": "Parody logos on press reviews, and a growth timeline that sticks",
-        "body": "Launch reviews show four parody outlet logos: TechCrunchy, Vergence, Hacker Olds and Wired-ish. The staff card's growth timeline now reads each person's saved history, so it survives a reload instead of restarting at Joined. On touch, the Place button dims while the aimed spot is blocked.",
+        "body": "Launch reviews show four parody outlet logos: TechCrunchy, The Vergence, Hacker Olds and Wired-ish. The staff card's growth timeline now reads each person's saved history, so it survives a reload instead of restarting at Joined. On touch, the Place button dims while the aimed spot is blocked.",
         "refs": [
           "#737",
           "#687",
@@ -1103,7 +1103,7 @@
       {
         "area": "Economy",
         "title": "Late-game money sinks: fame, a moonshot lab and the founders' last bet",
-        "body": "Rich companies finally have something big to spend on. From the HQ in the Consolidation era, three fame campaigns open up for any live product: The Documentary ($400K or 6 weeks of revenue, whichever is more, for +20 fame), The Big Game Ad ($800K or 8 weeks, +25 fame and a burst of hype) and Stadium Naming Rights ($2M or 16 weeks, +35 fame over 12 weeks). Fame fades 0.3 a week, and at 100 it cuts churn by up to 25% and hiring fees by up to 40%. About 100 weeks into Consolidation a moonshot lab is pitched: funding it costs 25% of weekly revenue (at least $50K) every week, with a check-in every 26 weeks where you can keep going or pull the plug for a little fame. After the fourth check-in it is a 50/50 reveal: a new product scoring 8.6 in a market you are not in yet, with +20 fame and +8 brand, or a glorious flop with +8 fame and -2 brand. At week 900 the founders get one last bet: one last moonshot costs 30% of cash on a 45% gamble for fame and brand, or you can start a foundation or hand over the keys.",
+        "body": "Rich companies finally have something big to spend on. From the Consolidation era, once the office is big enough (the Office Floor), three fame campaigns open up in Marketing for a product or a new-product project: The Documentary ($400K or 6 weeks of revenue, whichever is more, for +20 fame), The Big Game Ad ($800K or 8 weeks, +25 fame and a burst of hype) and Stadium Naming Rights ($2M or 16 weeks, +35 fame, running 12 weeks). Fame fades 0.3 a week, and at 100 it cuts churn by up to 25% and hiring fees by up to 40%. About 100 weeks into Consolidation, with at least the Office Floor, a moonshot lab is pitched: funding it costs 25% of weekly revenue (at least $50K) every week, with a check-in every 26 weeks where you can keep going or pull the plug for a little fame. At the two-year mark it is unveiled, a 50/50 reveal (or you can give it six more months): a new product scoring 8.6 in a market you are not in yet, with +20 fame and +8 brand, or a glorious flop with +8 fame and -2 brand. At week 900 the founders get one last bet: one last moonshot costs 30% of cash on a 45% gamble for fame and brand, or you can start a foundation or hand over the keys.",
         "refs": [
           "#241",
           "#430"
@@ -1141,7 +1141,7 @@
       {
         "area": "Moments",
         "title": "Six office-movie decisions, each once a run",
-        "body": "The banner (Consolidation, 12 or more staff): hang it for +2% output and +5% meaning drain for 26 weeks, hang it ironically for +2 team meaning with a 20% chance a visiting investor posts it sincerely (brand -1), or send it back for $300. The cover sheets: mandate them for -2% output for 26 weeks and +3 institutional knowledge, with three memos on Yak, or quietly lose the memo for +1 meaning. The red stapler, for someone with 2 or more years in: standardize for +$200 and -25 meaning for them, then 13 weeks later they find it and gain 10, or let them keep it for +5 meaning. The consultants, two of them called Rob: let them work for $60K, -4 team meaning, +5% output for 26 weeks and your two lowest-rated people let go, file the report for $60K, or send them home for -1 brand. The printer: take it out back for $2,500 and +6 team meaning, call the repair line for $300, or print less for -1% output for 13 weeks. And a Saturday ask: say yes for +8% output for 2 weeks at -3 team meaning and +10 strain, or refuse for +2 team meaning and -3 for the senior who asked. The printer one ends with staff carrying it out back and smashing it to a rap made for the moment.",
+        "body": "The banner (Consolidation, 12 or more staff): hang it for +2% output and +5% meaning drain for 26 weeks, hang it ironically for +2 team meaning with a 20% chance a visiting investor posts it sincerely (brand -1), or send it back for $300. The cover sheets: mandate them for -2% output for 26 weeks and +3 institutional knowledge, with three memos on Yak, or quietly lose the memo for +1 meaning. The red stapler, for someone with 2 or more years in: standardize for +$200 and -25 meaning for them, then 13 weeks later they find it and gain 10, or let them keep it for +5 meaning. The consultants (Consolidation, 15 or more staff), two of them called Rob: let them work for $60K, -4 team meaning, +5% output for 26 weeks and your two lowest-rated people let go, file the report for $60K, or send them home for -1 brand. The printer: take it out back for $2,500 and +6 team meaning, call the repair line for $300, or print less for -1% output for 13 weeks. And a Saturday ask: say yes for +8% output for 2 weeks at -3 team meaning and +10 strain, or refuse for +2 team meaning and -3 for the senior who asked. The printer one ends with staff carrying it out back and smashing it to a rap made for the moment.",
         "refs": [
           "#380",
           "#410",
@@ -1154,7 +1154,7 @@
       {
         "area": "Decisions",
         "title": "Decisions now show up in the office",
-        "body": "Decisions that describe something physical now put it on screen: pizza, a curtain over the moonshot, a sledgehammer, a pet carrier, letters, screens that take over, smoke, sticky notes, mug piles, moving boxes, whiteboard scrawls, a giant cheque. Staff react: they dig into the pizza, swing the hammer, peer into the carrier, sigh over a letter. Some choices leave a prop behind. Pushing through founder burnout leaves a mug bucket for 26 weeks, either hackathon sponsor leaves a giant cheque for 26 weeks, a conference booth leaves a swag box for 4 weeks, and saying not yet to coffee leaves the French press until you buy an espresso machine. Granting an item, like the ping pong table, charges once and tells you if there is no room or no cash. A caption names what is happening, and the visitor scene now has the founders hiding from the person testing the product.",
+        "body": "Decisions that describe something physical now put it on screen: pizza, a curtain over the moonshot, a sledgehammer, a pet carrier, letters, screens that take over, smoke, sticky notes, mug piles, moving boxes, whiteboard scrawls, a giant cheque. Staff react: they dig into the pizza, swing the hammer, peer into the carrier, sigh over a letter. Some choices leave a prop behind. Pushing through founder burnout leaves a mug bucket for 26 weeks, either hackathon sponsor leaves a giant cheque for 26 weeks, a conference booth leaves a swag box for 4 weeks, and saying not yet to the French press request leaves the French press until you buy an espresso machine. Granting an item, like the ping pong table, charges once and tells you if there is no room or no cash. A caption names what is happening, and the visitor scene now has the founders hiding from the person testing the product.",
         "refs": [
           "#253",
           "#283",
@@ -1168,7 +1168,7 @@
       {
         "area": "Yak",
         "title": "Answer Yak posts as the founder, and post yourself",
-        "body": "Some staff posts in Yak come with two or three founder replies, each showing a small effect. They come from what is actually happening: a worn-out teammate, an incident, a launch, the rival, a late project, a full office, low cash. Only one is open at a time, and ignore it for three weeks and it counts as ignored. Six trivial decisions (the two coffee requests, the pet question, a new model dropping, a senior's side project and the app store rejection) now arrive this way instead of pausing the game, and if nobody answers, the mildest choice happens and never one that brings in an item or a pet. A Post button lets you pick from five posts. A pep talk is +2 team meaning, but -1 during an outage. A meme is +2, but -3 during an outage. Pizza costs $25 per person present for +3 meaning and +10 stamina. An announcement is +3 with a launch, hire or goal in the last two weeks, and -1 with no news. Asking who broke prod during an outage gives the product +3 health and costs 1 meaning, and with nothing broken it costs 2. Posts share a 2-week cooldown, and Yak can be set to All, Important or Off.",
+        "body": "Some staff posts in Yak come with two or three founder replies, each showing a small effect. They come from what is actually happening: a worn-out teammate, an incident, a launch, the rival, a late project, a full office, low cash. Only one is open at a time, and ignore it for three weeks and it counts as ignored. Six trivial decisions (the two coffee requests, the pet question, a new model dropping, a senior's side project and the app store rejection) now arrive this way instead of pausing the game, and if nobody answers, the mildest choice happens and never one that brings in an item or a pet. A Post button lets you pick from five posts. A pep talk is +2 team meaning, but -1 during an outage or when team meaning is below 30. A meme is +2, but -3 during an outage. Pizza costs $25 per person in the office for +3 meaning and +10 stamina, and counts as a backfire during an outage. Posting the same message again within 8 weeks falls flat. An announcement is +3 with a launch, hire or finished goal in the last two weeks, and -1 with no news. Asking who broke prod during an outage gives the product +3 health and costs 1 meaning, and with nothing broken it costs 2. Posts share a 2-week cooldown, and Yak can be set to All, Important or Off.",
         "refs": [
           "#476",
           "#465",
@@ -1198,7 +1198,7 @@
       {
         "area": "Office",
         "title": "Office items say who they help, and keep their front clear",
-        "body": "Every office card now tags what the item is: the desk is a Workstation (a seat for one, and nobody can work or be hired without one), and anything with an effect for everyone is an Office-wide perk, nobody assigned. Standing Desks say so in their text and cut stamina drain by 10, 20 or 30% for the whole office by level. Items with a front zone (espresso, coffee corner, plant wall, bookshelf, library, arcade, plus the standing desk mat from level 2 and the server rack grate at level 3) now keep the tile in front of them clear, and placement refuses with Needs clear floor in front. The espresso demand no longer fires when you already have a coffee corner, and a new one fires when you have a corner and no espresso machine. Foosball and ping pong now start in small offices, so two garage founders play now and then.",
+        "body": "Every office card now tags what the item is: the desk is a Workstation (a seat for one, and nobody can work or be hired without one), and anything with an effect for everyone is tagged Office-wide, nobody assigned. Standing Desks say so in their text and cut stamina drain by 10, 20 or 30% for the whole office by level. Items with a front zone (espresso, coffee corner, plant wall, bookshelf, library, arcade, plus the standing desk mat from level 2 and the server rack grate at level 3) now keep the tile in front of them clear, and placement refuses with Needs clear floor in front. The espresso demand no longer fires when you already have a coffee corner, and a new one fires when you have a corner and no espresso machine. Pair games at foosball and ping pong tables now happen in small offices too, so two garage founders play now and then.",
         "refs": [
           "#322",
           "#336",
@@ -1212,7 +1212,7 @@
       {
         "area": "People",
         "title": "You can see people grow, and the roster looks more like a real company",
-        "body": "A promotion, an earned trait or trained skills now get a portrait toast, for example a promotion to Senior Designer with its skill gains, and clicking it opens their card. Level-ups alone stay quiet and put a yellow New pip on the staff row. Each person keeps a growth history, so the timeline on their card survives a reload, and when three or more people level up in a week the team posts a growth line in #wins. Level-ups, promotions and traits have their own sounds. Staff names now come from much wider pools, 306 first names and 251 last names, weighted toward a US tech company, with no repeats and no famous full names.",
+        "body": "A promotion, an earned trait or trained skills now get a portrait toast, for example a promotion to Senior Designer with its skill gains, and clicking it opens their card. Level-ups alone stay quiet and put a yellow New pip on the staff row. Each person keeps a growth history, so the timeline on their card survives a reload, and when three or more people level up in a week the team posts a growth line in #wins. Level-ups, promotions and traits have their own sounds. Staff names now come from much wider pools, 328 first names and 265 last names, weighted toward a US tech company, with no repeats and no famous full names.",
         "refs": [
           "#558",
           "#581",
@@ -1226,7 +1226,7 @@
       {
         "area": "Economy",
         "title": "Acquisition offers come a little less often",
-        "body": "The acquisition offer is now a little rarer in the event roll, still needing year 10 and the offer MRR and brand. In bot runs over 200 seeds, the balanced bot's exit rate through acquisition fell from 64.5% to 61%, back inside its target band. It is a small change to how fast a good game ends.",
+        "body": "The acquisition offer is now a little rarer in the event roll (its weight went from 6 to 4.5), still needing year 10 and the offer MRR and brand. In bot runs over 200 seeds, the balanced bot's exit rate through acquisition fell from 64.5% to 61%, back inside its target band. It is a small change to how fast a good game ends.",
         "refs": [
           "#297"
         ],
@@ -1326,7 +1326,7 @@
       {
         "area": "Behind the scenes",
         "title": "Faster checks and a trailer",
-        "body": "Local CI got faster and safer: render checks run in parallel and skip unchanged inputs, light PRs skip the balance suite, and a main guard runs the full suite on each main commit. The scene sweep now checks for overlaps, floating props and models against their footprints. A 39 second game trailer is built by one command, and the readme links to it.",
+        "body": "Local CI got faster and safer: render checks run in parallel and skip unchanged inputs, light PRs skip the balance suite, and a main guard runs the full suite on each main commit. The scene sweep now checks for overlaps, floating props and models against their footprints. A game trailer is built by one command, and the readme links to it.",
         "refs": [
           "#274",
           "#275",
@@ -1345,7 +1345,7 @@
       {
         "area": "People",
         "title": "Overwork, vacations, outside offers and Crunch Mode",
-        "body": "People now wear down from overwork as well as lost meaning. Strain builds from tiredness, understaffing, crunch, being on call during an outage and covering for burnt-out colleagues. At 60 strain the game warns that someone looks exhausted, and at 85 they burn out even if they love the job. Everyone takes about two weeks off a year, staggered so at most about 15% of the team is out at once, and a crunch, an outage or a thin team postpones a vacation (which adds strain). Anyone who has been around 26 weeks or more can take an outside offer, at a base rate of 2.5% a year. That rate climbs when meaning is low, when pay is under the going rate, or when someone is coasting, and drops with good perks and policies. A team with average meaning of 70 or more sends a friend with the same role and level when someone leaves. The new Crunch Mode policy gives engineers and designers 15% more output, but everyone on a project takes extra strain and meaning drain every week, so a team that lives on it burns out in roughly 30 to 40 weeks. The No Crunch policy does the opposite, and the Time off action sends someone away for two weeks.",
+        "body": "People now wear down from overwork as well as lost meaning. Strain builds from tiredness, understaffing, crunch, being on call during an outage and covering for burnt-out colleagues. At 60 strain the game warns that someone looks exhausted, and at 85 they burn out even if they love the job. Everyone takes about two weeks off a year, staggered so at most about 15% of the team is out at once, and a crunch or an outage postpones a vacation (which adds strain). Anyone who has been around 26 weeks or more can take an outside offer, at a base rate of 2.5% a year. That rate climbs when meaning is low, when pay is under the going rate, or when someone is coasting, and drops with good perks and policies. A team with average meaning of 70 or more sends a friend with the same role and level when someone leaves. The new Crunch Mode policy gives engineers and designers 15% more output, but everyone on a project takes extra strain and meaning drain every week, so a team that lives on it burns out. The No Crunch policy does the opposite, and the Time off action sends someone away for two weeks.",
         "refs": [
           "#28",
           "#109",
@@ -1369,7 +1369,7 @@
       {
         "area": "Economy",
         "title": "Late-game things to spend money on",
-        "body": "The HQ can be expanded in three steps, each adding room for 5 more desks. The Knock-through costs $2M (rent +$6K a week) and needs 28 staff, the Roof Terrace costs $6M (rent +$8K a week) and needs 33 staff and the year 2030, and the Annex costs $15M (rent +$12K a week) and needs 38 staff and 2033. Desks are now capped at 30 on the Office Floor and the HQ base, so 45 at most, and the Office panel shows the limit. The terrace only takes outdoor items like plants, couches, the coffee corner and the ping pong table. From the Agents era, three small companies come up for sale each year, with a second round in Consolidation. Each is sized to you: its yearly revenue is 3 to 12% of yours and the price is 6 to 10 times that, and an offer expires after 13 weeks. Buying one needs a free desk for everyone who joins. Reports shows each offer with its price, people and payback, and a chip turns amber when it is about to expire. Two upkeep policies, Top-of-Market Pay and Office Upkeep, cost money every week to make outside offers less likely, and a Fame bar appears once you have some.",
+        "body": "The HQ can be expanded in three steps, each adding room for 5 more desks. The Knock-through costs $2M (rent +$6K a week) and needs 28 staff, the Roof Terrace costs $6M (rent +$8K a week) and needs 33 staff and the year 2030, and the Annex costs $15M (rent +$12K a week) and needs 38 staff and 2033. Desks are now capped at 30 on the Office Floor and the HQ base, so 45 at most, and the Office panel shows the limit. The terrace only takes outdoor items like plants, couches, the coffee corner and the ping pong table. From the Agents era, three small companies come up for sale each year, with a second round in Consolidation. Each is sized to you: its yearly revenue is 3 to 12% of yours and the price is 6 to 10 times that (20% less in Consolidation), and an offer expires after 13 weeks. Buying one needs a free desk for everyone who joins. Reports shows each offer with its price, people and payback, and a chip turns amber when it is about to expire. Two upkeep policies, Top-of-Market Pay and Office Upkeep, cost money every week to make outside offers less likely, and a Fame bar appears once you have some.",
         "refs": [
           "#123",
           "#117",
@@ -1384,7 +1384,7 @@
       {
         "area": "Decisions",
         "title": "Mid-era decisions: the agent bill, a rival's mega-round, the floor next door",
-        "body": "The long stretches between eras now have one-time decisions. 45 weeks into Agents comes the agent bill: audit every agent (8 weeks of agent spend, and rogue risk drops 30% for a year), cap the spend (automation comes down to half), or say it is fine and get an invoice 26 weeks later for 20 weeks of spend, which you can pay or dispute as a gamble. 95 weeks into Agents, with a live rival, the rival raises a mega-round. Matching their offers raises salaries 8% and halves outside offers taken for 26 weeks, reminding people why they are here adds team meaning but invites more offers, and letting them try invites a lot more. Once the first HQ expansion is open and affordable, the empty floor next door offers a chance to knock through at once. In Consolidation, the first small companies for sale come with an offer to buy the best-value one. Merging with a rival now costs $150K plus $60K per point of its strength.",
+        "body": "The long stretches between eras now have one-time decisions. 45 weeks into Agents comes the agent bill: audit every agent (8 weeks of agent spend, and rogue risk drops 30% for a year), cap the spend (automation comes down to half), or say it is fine and get an invoice 26 weeks later for 20 weeks of spend, which you can pay or dispute as a gamble. 95 weeks into Agents, with a live rival, the rival raises a mega-round. Matching their offers raises salaries 8% and halves outside offers taken for 26 weeks, reminding people why they are here adds team meaning but invites more offers, and letting them try invites half again as many. From 130 weeks into Agents, once the first HQ expansion is open and affordable, the empty floor next door offers a chance to knock through at once. In Consolidation, the first small companies for sale come with an offer to buy the best-value one. Merging with a rival now costs $150K plus $60K per point of its strength.",
         "refs": [
           "#193"
         ],
@@ -1393,7 +1393,7 @@
       {
         "area": "Decisions",
         "title": "The AI Summit, new Saasies, the hearing and alumni",
-        "body": "From the ChatGBT era on, a yearly decision at week 20 lets you send the company to the AI Summit, with the format rotating between a keynote demo, the \"Will AI Replace Us?\" panel and a hackathon. The small and big options cost $20K and $80K in ChatGBT and Agents, 1.5 times that in Consolidation and double in Plateau. Declining twice in a row pauses invitations until you launch a new AI product. At week 50, three new Saasie categories are announced. Best AI Feature needs a live AI product scoring 8.5 or more and gives it +15 hype. Best Place to Work needs 10 or more people in good spirits, average meaning of 78 and no resignations that year, and gives +1 meaning. Most Trusted, from Consolidation, needs a year with no breach or incident and gives +2 brand. Once, from the Agents era with two or more live AI products, you are summoned to a hearing: send a founder (a gamble), send the lawyers ($30,000) or decline. The committee report follows 13 weeks later, and complying early costs $40,000 but cuts customer churn for a year. People who leave become alumni, and the ending epilogue retells the run, leading with how it ended and ranking consequences above flavour.",
+        "body": "From the ChatGBT era on, a yearly decision at week 20 lets you send the company to the AI Summit, with the format rotating between a keynote demo, the \"Will AI Replace Us?\" panel and a hackathon. The small and big options cost $20K and $80K in the ChatGBT era, 1.5 times that in Agents, double in Consolidation and 2.5 times in Plateau. Declining twice in a row pauses invitations until you launch a new AI product. At week 50, three new Saasie categories are announced. Best AI Feature needs a live AI product scoring 8.5 or more and gives it +15 hype. Best Place to Work needs 10 or more people in good spirits, average meaning of 78 and no resignations that year, and gives +1 meaning. Most Trusted, from Consolidation, needs a year with no breach or incident and gives +2 brand. Once, from 2027 in the Agents era or later with two or more live AI products, you are summoned to a hearing: send a founder (a gamble), send the lawyers ($30,000) or decline. The committee report follows 13 weeks later, and complying early costs $40,000 but cuts customer churn for a year. People who leave become alumni, and the ending epilogue retells the run, leading with how it ended and ranking consequences above flavour.",
         "refs": [
           "#47",
           "#196",
