@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-10-05",
+    "headline": "Eras for everyone, a deal bell, and props you can read",
+    "items": [
+      {
+        "area": "Eras",
+        "title": "Every new game can start in a different decade",
+        "body": "Era starts are on for everyone now. The founding screen still defaults to a Classic 2019 company, but one tap on Change opens eight starts, from a pre-internet company shipping software in boxes, through the dot-com boom and its bust, Y2K, Web 2.0, and on into the AI eras and the Plateau. Each start dresses the office for its decade: CRT monitors and cubicles, a BOOM/BUST chart on the wall, a Y2K countdown clock, period clothes on the staff, and a street outside that changes from payphones and video-rental signs to parcel drones and a data centre going up next door. Later starts score a little less than the full Classic career, so the long game stays the prestige run.",
+        "media": [
+          {
+            "src": "media/era-starts.webp",
+            "kind": "image",
+            "caption": "A dot-com and a pre-internet start, next to Classic"
+          },
+          {
+            "src": "media/era-people.webp",
+            "kind": "image",
+            "caption": "Staff in period clothes"
+          },
+          {
+            "src": "media/era-objects.png",
+            "kind": "image",
+            "caption": "All 28 era objects"
+          }
+        ],
+        "refs": [
+          "#5",
+          "#1540",
+          "#1547"
+        ]
+      },
+      {
+        "area": "Moments",
+        "title": "Closing a big deal rings a bell",
+        "body": "When a notable deal closes, the seller spins their chair toward you and rings a silver handbell beside their head, two quick shakes. It replaces the cash register sound, and the bell only plays when you can actually see it rung. The old fist pump never read from above: chibi arms can't reach past their own eyes.",
+        "media": [
+          {
+            "src": "media/deal-bell.mp4",
+            "kind": "video",
+            "caption": "The deal bell"
+          }
+        ],
+        "refs": [
+          "#1485",
+          "#1531"
+        ]
+      },
+      {
+        "area": "Moments",
+        "title": "Parties and music nights you can actually see",
+        "body": "At a company party, seated staff now stand up behind their chairs and cheer with both arms in the air, under a bigger banner that stays up through the cheer and wraps on a phone. At music night, a daily standup used to freeze everyone into a ring with their backs to the camera, hiding the dancer. Now the standup ends when the music starts, and up to four onlookers stand in an arc that leaves the dance in full view.",
+        "refs": [
+          "#1543",
+          "#1545"
+        ]
+      },
+      {
+        "area": "Art",
+        "title": "Decision props you can read",
+        "body": "Six props that decisions leave behind were too small to make out, even zoomed all the way in. They're bigger and bolder now: a memo board covered in sticky notes, a leaning tower of mugs, three fat binders labelled POLICY, POLICY and FINAL, a fan of gift cards each with a big dollar sign, the old LOOPWORKS alumni sign at twice the size, and the mission-statement mug with its SOFTWEAR typo turned to face you. The closest zoom on the Office Floor goes in further too.",
+        "media": [
+          {
+            "src": "media/props.webp",
+            "kind": "image",
+            "caption": "All six at the closest zoom"
+          },
+          {
+            "src": "media/softwear.webp",
+            "kind": "image",
+            "caption": "SOFTWEAR, before and after"
+          }
+        ],
+        "refs": [
+          "#1481",
+          "#1548"
+        ]
+      },
+      {
+        "area": "People",
+        "title": "People stop walking through the furniture",
+        "body": "Staff used to cut corners, sometimes literally: heads brushing chair backs, a coffee run straight through a bookshelf, people standing inside the coffee counter. Walks now keep a step off furniture where there's room and go down the middle of corridors, standing spots keep a body's width clear, and people come at a seat from the side only when the slide onto it is clear. Contacts with furniture across a full test sweep fell from about 13,800 to 2,300.",
+        "refs": [
+          "#1138",
+          "#1491",
+          "#1500",
+          "#1528"
+        ]
+      }
+    ]
+  }
+]

@@ -3,4 +3,4 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir _site
-cp -r index.html 404.html style.css *.js favicon.png .nojekyll img media play _site/
+cp -r index.html 404.html style.css *.js favicon.png .nojekyll img media play changelog _site/

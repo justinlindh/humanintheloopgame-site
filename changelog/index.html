@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Changelog: Human in the Loop</title>
+  <meta name="description" content="What changed in Human in the Loop, day by day, in plain words with pictures and clips.">
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="canonical" href="https://humanintheloopgame.com/changelog/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Human in the Loop changelog">
+  <meta property="og:description" content="What changed in the game, day by day.">
+  <meta property="og:url" content="https://humanintheloopgame.com/changelog/">
+  <meta property="og:image" content="https://humanintheloopgame.com/img/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="changelog-page">
+  <header class="cl-top">
+    <div class="wrap cl-bar">
+      <a class="cl-home" href="../"><img src="../img/logo.png" alt="Human in the Loop" width="1716" height="754"></a>
+      <nav aria-label="Site">
+        <a class="btn" href="../">Home</a>
+        <a class="btn primary" href="https://play.humanintheloopgame.com/">Play</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap cl-main">
+    <h1>Changelog</h1>
+    <p class="cl-lede">What changed in the game, one day at a time, in plain words. Newest first.</p>
+    <div class="cl-filters" id="filters" role="group" aria-label="Filter by area"></div>
+    <div id="days" aria-live="polite"><p class="muted">Loading the changelog…</p></div>
+  </main>
+
+  <dialog id="zoom" class="cl-zoom"><img id="zoomImg" alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACw="></dialog>
+
+  <script>
+    const daysEl = document.getElementById('days');
+    const filtersEl = document.getElementById('filters');
+    const zoom = document.getElementById('zoom');
+    const zoomImg = document.getElementById('zoomImg');
+    let days = [], area = 'All';
+
+    const el = (tag, cls, text) => {
+      const n = document.createElement(tag);
+      if (cls) n.className = cls;
+      if (text != null) n.textContent = text;
+      return n;
+    };
+    const fmt = (d) => new Date(d + 'T12:00:00').toLocaleDateString(undefined, { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+
+    function figure(m) {
+      const f = el('figure');
+      let node;
+      if (m.kind === 'video') {
+        node = el('video');
+        node.src = m.src; node.controls = true; node.muted = true; node.loop = true;
+        node.playsInline = true; node.preload = 'metadata';
+        if (m.poster) node.poster = m.poster;
+      } else {
+        node = el('img');
+        node.src = m.src; node.alt = m.alt || m.caption || ''; node.loading = 'lazy';
+        node.tabIndex = 0;
+        const open = () => { zoomImg.src = m.src; zoomImg.alt = node.alt; zoom.showModal(); };
+        node.addEventListener('click', open);
+        node.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+      }
+      f.append(node);
+      if (m.caption) f.append(el('figcaption', null, m.caption));
+      return f;
+    }
+
+    function render() {
+      daysEl.textContent = '';
+      const shown = days
+        .map((d) => ({ ...d, items: d.items.filter((i) => area === 'All' || i.area === area) }))
+        .filter((d) => d.items.length);
+      if (!shown.length) { daysEl.append(el('p', 'muted', 'Nothing in this area yet.')); return; }
+      for (const d of shown) {
+        const sec = el('section', 'cl-day');
+        sec.id = d.date;
+        const head = el('div', 'cl-dayhead');
+        const date = el('a', 'cl-date', fmt(d.date));
+        date.href = '#' + d.date;
+        head.append(date);
+        if (d.headline) head.append(el('h2', null, d.headline));
+        sec.append(head);
+        for (const i of d.items) {
+          const a = el('article', 'card cl-item');
+          const body = el('div', 'cl-body');
+          body.append(el('span', 'cl-tag', i.area), el('h3', null, i.title), el('p', null, i.body));
+          if (i.refs?.length) body.append(el('p', 'cl-refs', i.refs.join('  ')));
+          a.append(body);
+          if (i.media?.length) {
+            const m = el('div', 'cl-media');
+            i.media.forEach((x) => m.append(figure(x)));
+            a.append(m);
+          }
+          sec.append(a);
+        }
+        daysEl.append(sec);
+      }
+      if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+    }
+
+    function buildFilters() {
+      const areas = ['All', ...new Set(days.flatMap((d) => d.items.map((i) => i.area)))];
+      filtersEl.textContent = '';
+      for (const name of areas) {
+        const b = el('button', 'cl-chip', name);
+        b.type = 'button';
+        b.setAttribute('aria-pressed', String(name === area));
+        b.addEventListener('click', () => { area = name; buildFilters(); render(); });
+        filtersEl.append(b);
+      }
+    }
+
+    zoom.addEventListener('click', () => zoom.close());
+    fetch('entries.json')
+      .then((r) => r.json())
+      .then((data) => { days = [...data].sort((a, b) => b.date.localeCompare(a.date)); buildFilters(); render(); })
+      .catch(() => { daysEl.textContent = ''; daysEl.append(el('p', 'muted', 'The changelog could not load. Reload the page to try again.')); });
+  </script>
+</body>
+</html>

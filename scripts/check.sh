@@ -4,7 +4,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 npm test
-npx --no-install html-validate index.html 404.html play/index.html
+npx --no-install html-validate index.html 404.html play/index.html changelog/index.html
 rm -rf _site
 scripts/stage-site.sh
 node scripts/check-site.mjs _site
