@@ -423,7 +423,7 @@
       {
         "area": "Eras",
         "title": "Launch in the pre-internet selling boxed software",
-        "body": "A new founding option starts you in 1990 with two founders, three desks in a garage and $240K added to your funding. Pick Boxed Software in Build, then order copies in Reports > Inventory at $8 each to manufacture and sell them for $250 apiece at retail (the retailer takes 30%). Delivery takes two weeks, and bad reviews send back one copy per twenty sold. Restore health with mailed patches at $2 per installed copy, capped at $10K per batch. The pre-internet era lasts 156 weeks before the dot-com boom arrives. It scores 72% of a Classic run's value, and the balanced bot is intentionally less likely to survive the transition: reaching Web 2.0 only in about 169 of 200 test games, versus 185 from a two-founder dot-com start.",
+        "body": "A new founding option starts you in 1990 with two founders, three desks in a garage and $240K added to the funding you pick. Pick Boxed Software in Build, then order copies in Reports > Inventory at $8 each to manufacture and sell them for $250 apiece at retail (the retailer takes 30%). Delivery takes two weeks. Reviews below 6 send back one copy in twenty. Four weeks after the first delivery the retailer withdraws unsold stock, once per product, and charges 20% of its manufacturing cost, capped at $8K. Restore health with mailed patches at $2 per installed copy, capped at $10K a mailing; a patch is refused, with no charge, when the copies are already at full health with the current version. The pre-internet era lasts 156 weeks before the dot-com boom arrives, and it scores 72% of a Classic run's value.",
         "refs": [
           "#1270",
           "#1296"
@@ -432,16 +432,20 @@
       {
         "area": "Office",
         "title": "Disk Duplicator and Retail Display get three-level models",
-        "body": "The Disk Duplicator now shows its three levels as real hardware. Level 1 is a beige tower of lit drive bays on a work table. Level 2 adds a second tower with spindle racks. Level 3 becomes a floor-standing autoloader beside a packing table. It costs $3K, $6K or $12K and cuts duplication costs by 10%, 20% or 30%. The Retail Display grows from a table of boxed software to a store endcap to a double endcap with a giant box standee, costing $2K, $4K or $8K and adding 10%, 15% or 20% to retail demand.",
+        "body": "The Disk Duplicator now shows its three levels as real hardware. Level 1 is a beige tower of lit drive bays on a work table. Level 2 adds a second tower with spindle racks. Level 3 becomes a floor-standing autoloader beside a packing table. It costs $3K, $6K or $12K and cuts duplication costs by 10%, 20% or 30%. The Retail Display grows from a table of boxed software to a store endcap to a double endcap with a giant box standee, costing $2K, $4K or $8K and adding 10%, 15% or 20% to retail demand. Both are two tiles by one, can be bought before Classic, and each has its own shop icon.",
         "refs": [
           "#1298",
           "#1299"
+        ],
+        "media": [
+          { "src": "media/2026-10-03/disk_duplicator.webp", "kind": "image", "caption": "Disk duplicator, three levels: the pre-internet era's way to ship software" },
+          { "src": "media/2026-10-03/retail_shelf.webp", "kind": "image", "caption": "Retail display, three levels: your boxed product in the shops" }
         ]
       },
       {
         "area": "Interface",
         "title": "DeskNet: the pre-internet chat",
-        "body": "Pre-internet companies use DeskNet instead of modern chat: a green monospace terminal with bracketed sender names, a /me status line and a period 1990s look. It does everything the regular chat does, just dressed for the era.",
+        "body": "Pre-internet companies use DeskNet instead of modern chat: a green monospace terminal with bracketed sender names, a /me status line and a period 1990s look. Reactions, the Post picker and reply prompts work as in the regular chat, and a new message pings with a terminal beep.",
         "refs": [
           "#1270"
         ]
