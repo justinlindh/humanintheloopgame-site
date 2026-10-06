@@ -417,6 +417,45 @@
     ]
   },
   {
+    "date": "2026-10-03",
+    "headline": "Pre-internet era, boxed software with retail inventory and mail patches, DeskNet, and real models for Disk Duplicator and Retail Display",
+    "items": [
+      {
+        "area": "Eras",
+        "title": "Launch in the pre-internet era selling boxed software",
+        "body": "A new founding option starts you in the pre-internet with $240K added funding and three desks in a garage. Pick Boxed Software in Build, then order copies in Reports > Inventory: $8 each to make, sell for $250 apiece at retail (retailer takes 30%). Delivery takes two weeks. Bad reviews send back one copy in twenty. After four weeks, retailers pull unsold stock and charge 20% of manufacturing cost. Mail patches for $2 per copy to restore health, capped at $10K per batch. The era runs 156 weeks before dot-com begins.",
+        "refs": [
+          "#1270"
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "Disk Duplicator and Retail Display get three-level models",
+        "body": "The Disk Duplicator now scales through three levels: level 1 is a beige tower of lit drive bays on a work table, level 2 adds twin towers with spindle racks, level 3 is a floor-standing autoloader beside a packing table. The Retail Display grows from a table of boxed software to a store endcap to a double endcap with a giant box standee. The Duplicator costs $3K, $6K or $12K and cuts duplication costs by 10%, 20% or 30%. The Display costs $2K, $4K or $8K and adds 10%, 15% or 20% to retail demand.",
+        "refs": [
+          "#1298",
+          "#1299"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "DeskNet: the pre-internet chat",
+        "body": "Pre-internet companies use DeskNet instead of modern chat: a green monospace terminal with period styling, bracketed names and a /me status line, doing everything the usual chat does with 1990s looks.",
+        "refs": [
+          "#1270"
+        ]
+      },
+      {
+        "area": "Fixes",
+        "title": "Goal order, product subtitles and chat labels",
+        "body": "Goals now list the current chapter first, so a pre-internet start shows its early goals right away. Product cards no longer print null for missing angles or models. The chat banner names its tab in the era's voice: office for modern eras, DeskNet for pre-internet.",
+        "refs": [
+          "#1296"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-02",
     "headline": "A quiet day for players",
     "items": [
