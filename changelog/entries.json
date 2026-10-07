@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-10-06",
+    "headline": "The water cooler spreads knowledge, pick radio stations on the boombox, and the game shows fewer popups",
+    "items": [
+      {
+        "area": "Office",
+        "title": "The water cooler brings knowledge sharing",
+        "body": "The coffee corner is now a water cooler where people gather and share what they know. Anyone with a desk in reach loses 2% of the gap to the team's expert each week, up to 1 point, when two or more people are there. The cooler looks its era: a glass jug with a spigot on a wooden stand before Web 2.0, a blue-bottle cooler with a cup cabinet in the classic years, a filtered tap on reclaimed wood in Web 2.0, and a white hydration station from Agents on. Two people stop by with paper cups now and then, sip and chat, then head back to their desks.",
+        "refs": [
+          "#1759",
+          "#1764"
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "Radio stations on the boombox",
+        "body": "With a boombox placed, the Office panel shows a new Radio card. An On/Off button and a station picker let you choose which station to play, or Radio off to keep your choice for next time. Staff turn to listen when they like or dislike what's on.",
+        "refs": [
+          "#1616"
+        ]
+      },
+      {
+        "area": "Pacing",
+        "title": "Fewer interruptions, more flow",
+        "body": "The game now shows about 0.4 asks a running minute instead of constant popups. Most random events still happen, but only the biggest ones break in as cards. The rest play out quietly with a careful choice and post to Yak. Status news (someone's back, running on empty, a project at 75%, a product shipping) shows as a small bubble in the office instead of a toast, so the team's mood reads in the room. A minor incident is a red bubble, the all-clear turns green. Company news floats as a gold banner.",
+        "refs": [
+          "#1702",
+          "#1654",
+          "#1658",
+          "#1670"
+        ]
+      },
+      {
+        "area": "Art",
+        "title": "Decision props are now readable",
+        "body": "Six decision props (sticky notes, mugs, binders, gift cards, signs, and a chewed cable) are bigger and repositioned so you can read what they say from the default camera view instead of hidden behind the monitor. The props now sit in the spot the camera sees best at your office.",
+        "refs": [
+          "#1615",
+          "#1700",
+          "#1701"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/decision-no_show.webp",
+            "kind": "image",
+            "caption": "Sticky notes covering the desk"
+          },
+          {
+            "src": "media/2026-10-06/decision-founder_burnout.webp",
+            "kind": "image",
+            "caption": "Mugs piling higher"
+          },
+          {
+            "src": "media/2026-10-06/decision-enterprise_rfp.webp",
+            "kind": "image",
+            "caption": "Policy binders on the desk"
+          }
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Back to title in Settings",
+        "body": "Settings now has a Back to title button that shows when you're playing. Tap it and confirm to save your game and return to the title screen, where Continue picks your company back up.",
+        "refs": [
+          "#1775"
+        ]
+      },
+      {
+        "area": "Fixes",
+        "title": "Collision fixes and smaller things",
+        "body": "Printer carriers clear the printer without clipping through it when they carry it out back. The office fits better on 360 px phones, full-screen mode keeps the page filled, and mailed events pick their text from the era template so the same mail arrives no matter what you named things. The Network Operations Center keeps both rows clear in front for placement and upgrades.",
+        "refs": [
+          "#1742",
+          "#1746",
+          "#1621",
+          "#1622",
+          "#1744",
+          "#1745"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "headline": "Era starts for every new game, a droning all-hands screen for the open-plan decision, and faces, bells and props that read",
     "items": [
