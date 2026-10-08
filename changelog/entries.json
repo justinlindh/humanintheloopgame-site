@@ -1,26 +1,74 @@
 [
   {
     "date": "2026-10-06",
-    "headline": "The water cooler spreads knowledge and the game shows fewer popups",
+    "headline": "Fewer popups and an inbox, the era choice comes first, and the game installs for offline play",
     "items": [
-      {
-        "area": "Office",
-        "title": "The water cooler brings knowledge sharing",
-        "body": "The coffee corner is now a water cooler where people gather and share what they know. Anyone with a desk in reach loses 2% of the gap to the most knowledgeable person in reach each week, up to 1 point, when two or more people with desks in reach of the cooler are in the office. The cooler looks its era: a glass jug with a spigot on a wooden stand in the pre-internet, a blue-bottle cooler with a cup cabinet in the dot-com and classic years, a filtered tap on reclaimed wood in Web 2.0, and a white hydration station from Agents on. Two people stop by with paper cups now and then, sip and chat, then head back to their desks.",
-        "refs": [
-          "#1759",
-          "#1764"
-        ]
-      },
       {
         "area": "Pacing",
         "title": "Fewer interruptions, more flow",
-        "body": "The game now shows about 0.4 asks a running minute instead of constant popups. Most random events still happen, but only the biggest ones break in as cards. The rest play out quietly with a careful choice and post to Yak. Status news (someone's back, running on empty, a project at 75%, a product shipping) shows as a small bubble in the office instead of a toast, so the team's mood reads in the room. A minor incident is a red bubble, the all-clear turns green. Company news floats as a gold banner.",
+        "body": "The game now shows about 0.4 asks a running minute instead of constant popups. Most random events still happen, but only the biggest ones break in as cards. The rest play out quietly with a careful choice and post to Yak. Decisions, Yak prompts and letters wait in a queue and come one at a time, at least 90 seconds of running play apart (150 above 1x speed; emergencies skip the wait), and a prompt or letter you have seen closes after 120 seconds of running play. Status news (someone's back, running on empty, a project at 75%, a product shipping) shows as a small bubble in the office instead of a toast, so the team's mood reads in the room. A minor incident is a red bubble, the all-clear turns green. Company news floats as a gold banner. A new product gets one launch card and no launched toast, a small unlock gets a New pip and one toast instead of a card, the advisor button pulses three times when advice arrives and then glows, and Yak counts only incidents, wins and important posts as unread.",
         "refs": [
           "#1702",
           "#1654",
           "#1658",
-          "#1670"
+          "#1670",
+          "#1713",
+          "#1704",
+          "#1663",
+          "#1665",
+          "#1728",
+          "#1666",
+          "#1667",
+          "#1729",
+          "#1731"
+        ]
+      },
+      {
+        "area": "Pacing",
+        "title": "Office gags play out without a card",
+        "body": "The office gags (ping-pong, the printer jam, the chewed cable, the trips to the expo and the AI summit) now resolve on their own. Their prop stays up for a few seconds and a short caption bubble names what happened, such as \"Printer jammed\" or \"Cable chewed\". A desk bubble waits until the person it is over has finished speaking.",
+        "refs": [
+          "#1695",
+          "#1696",
+          "#1699",
+          "#1724",
+          "#1726"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "The inbox is on",
+        "body": "From week 4 an envelope button in the top bar (or the I key) opens a Mail panel. It carries letters that ask for an answer, about one every eight minutes: a recruiter after one of your people, a partnership offer, the blockchain pitch and the app store rejection. A letter that waits pings, and the envelope pulses three times and keeps a steady badge until you read it. An open letter reads on its own stationery card. A reply-all storm turns up as a Yak gag.",
+        "refs": [
+          "#1573",
+          "#1669"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "The era choice comes first",
+        "body": "New Game now opens on an Era step: all eight starts as cards, each with its share of Classic's score, Classic chosen, and Found a company or Take over a company below them. The Funding step names your pick and has a Change button back to it. The dice beside the company name draw from about 50 stock parody names, with a few for each starting era. Long company names now fit on the old logo sign at the alumni reunion and on the rival's sign.",
+        "refs": [
+          "#1634",
+          "#1708",
+          "#1686"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Install it and play offline",
+        "body": "The public build can be installed (Install app in Chrome, Add to Home Screen on iPhone and Android). Installed, it downloads the whole game in the background after the first launch, shows a progress pill and then \"Ready to play offline\", and plays offline in every era. A normal browser tab downloads nothing unless you tap Settings, Offline, Download. A newer release downloads in the background and asks \"A new version is ready. Restart to update?\". Settings also has a Full screen button, hidden where the browser has no full screen or the game is installed.",
+        "refs": [
+          "#1589",
+          "#1613"
+        ]
+      },
+      {
+        "area": "Eras",
+        "title": "Boxed software asks for its first batch",
+        "body": "After a boxed launch in the pre-internet, a card says boxed software sells from stock and offers 100 copies, 500 copies or Hold off, which points you at Reports > Inventory. When a product sells its last copy with buyers still asking and nothing on the way, a Sold out card offers the same reorder, once per sell-out.",
+        "refs": [
+          "#1575"
         ]
       },
       {
@@ -50,24 +98,17 @@
         ]
       },
       {
-        "area": "Interface",
-        "title": "Back to title in Settings",
-        "body": "Settings now has a Back to title button that shows when you're playing. Tap it and confirm to save your game and return to the title screen, where Continue picks your company back up.",
-        "refs": [
-          "#1775"
-        ]
-      },
-      {
         "area": "Fixes",
-        "title": "Collision fixes and smaller things",
-        "body": "Printer carriers clear the printer without clipping through it when they carry it out back. The office fits better on 360 px phones, full-screen mode keeps the page filled, and mailed events pick their text from the era template so the same mail arrives no matter what you named things. The Network Operations Center keeps both rows clear in front for placement and upgrades.",
+        "title": "Smaller fixes",
+        "body": "A decision card raised over the big Yak view can be answered; it used to sit underneath and freeze the game. Yak prompts whose cause stays true for months, like review code, buy a desk and take to lunch, stop coming up again and again. The deal handbell rings at most once every 30 seconds. People walk round furniture on their way to and from coffee, shelves and desk exits, and the printer carriers stand clear of the wall. The top bar fits on a 360 px phone with the envelope, and full-screen mode keeps the page filled.",
         "refs": [
-          "#1742",
-          "#1746",
+          "#1569",
+          "#1579",
+          "#1595",
+          "#1592",
+          "#1694",
           "#1621",
-          "#1622",
-          "#1744",
-          "#1745"
+          "#1622"
         ]
       }
     ]
