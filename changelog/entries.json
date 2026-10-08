@@ -258,28 +258,28 @@
   },
   {
     "date": "2026-10-04",
-    "headline": "Boxed-software pre-internet start, Consolidation and Plateau starts, company takeovers, and sales you can see",
+    "headline": "Boxed-software pre-internet start, Consolidation and Plateau starts, company takeovers, sales you can see, and people with expressive faces",
     "items": [
       {
         "area": "Eras",
-        "title": "A pre-internet start: boxed software and DeskNet",
-        "body": "A new founding option starts the company in the pre-internet era with boxed software. Choosing it adds $240K to your funding and gives you three garage desks. In Build you pick a boxed release, then order 100, 500 or 1,000 copies in Reports > Inventory. Copies cost $8 each to make and take two playable weeks to arrive. They sell for $250 each, minus the retailer's 30% share, and reviews below 6 send back one copy in twenty. Mailed patches cost $2 per installed copy. Installed copies slowly age out, one in 520 a week, so owners buy the next version and a product that has sold to its whole market sells again. It is deliberately harder to survive the dot-com bust from here: in the dev's test runs the balanced bot reached Web 2.0 in 181 of 200 games, against 185 from a two-founder dot-com start. DeskNet, a green terminal chat, replaces the usual chat. All of this is still behind the eras switch.",
+        "title": "A pre-internet start with boxed software and DeskNet",
+        "body": "A new founding option starts the company in the pre-internet era with $240K added funding and three garage desks. In Build you pick a boxed release, then order 100, 500 or 1,000 copies in Reports > Inventory. Copies cost $8 each to make and take two playable weeks to arrive. They sell for $250 each, minus the retailer's 30% share, and reviews below 6 send back one copy in twenty. Mailed patches cost $2 per installed copy. Installed copies age out one in 520 per week, so owners buy the next version and a saturated market sells again. DeskNet, a green terminal chat, replaces the usual chat.",
         "refs": [
           "#1270",
           "#1392"
         ],
         "media": [
           {
-            "src": "https://raw.githubusercontent.com/justinlindh/human-in-the-loop/feature-media/era-still-preinternet.webp",
+            "src": "media/2026-10-04/era-still-preinternet.webp",
             "kind": "image",
-            "caption": "The pre-internet office"
+            "caption": "Pre-internet office with boxed software on shelves"
           }
         ]
       },
       {
         "area": "Eras",
-        "title": "Consolidation and Plateau starts, optional takeovers, the long career",
-        "body": "Two more founding options: Consolidation and the Plateau, each a four-desk garage with that era's tools and extra funding ($390K and $540K). Their scores count for 28% and 19% of a Classic run. In ChatGBT and Agents you can instead take over a company the game already built, with a score worth 55% of a Classic run in ChatGBT and 30% in Agents. The pre-internet and Classic cards name their route (The Long Career or Classic Career), and a finished long career is titled \"The Long Career, complete\" on the anniversary screen. The market also stops growing after 2039, so a Plateau start no longer faces rivals and project sizes that keep inflating for decades.",
+        "title": "Consolidation and Plateau starts, and optional company takeovers",
+        "body": "Two more founding routes: Consolidation and the Plateau, each a four-desk garage with that era's tools and extra funding ($390K and $540K), with scores counting for 28% and 19% of a Classic run. In ChatGBT and Agents you can instead take over an existing company the game already built, worth 55% and 30% of Classic respectively. Review the company's people, products, cash and office before you play on. A finished career is titled \"The Long Career, complete\" on the anniversary screen.",
         "refs": [
           "#1309",
           "#1344",
@@ -287,132 +287,103 @@
         ],
         "media": [
           {
-            "src": "https://raw.githubusercontent.com/justinlindh/human-in-the-loop/feature-media/era-still-consolidation.webp",
+            "src": "media/2026-10-04/era-still-consolidation.webp",
             "kind": "image",
-            "caption": "Consolidation office"
+            "caption": "Consolidation era office"
           },
           {
-            "src": "https://raw.githubusercontent.com/justinlindh/human-in-the-loop/feature-media/era-still-plateau.webp",
+            "src": "media/2026-10-04/era-still-plateau.webp",
             "kind": "image",
-            "caption": "Plateau office"
+            "caption": "Plateau era office"
           }
         ]
       },
       {
         "area": "Decisions",
         "title": "Sales you can see and hear",
-        "body": "Closed deals now show up. A week with a first sale for a product, or sales above the company's own recent pace, toasts the salesperson, the customer (a parody company name) and the product, and clicking it opens that product in Reports. The pace test compares against the trailing 26 weeks, so small and big companies both get beats instead of the big ones getting a flood. Smaller weeks leave a quiet \"Sales: N new customers this week\" line in the wins channel. Boxed sales read \"Retail moved N copies\". A notable deal rings a cash register, at most every 30 seconds.",
+        "body": "Closed deals now show up. A week with a first sale for a product, or sales above the company's own recent pace, toasts the salesperson, the customer and the product, and clicking it opens that product in Reports. The pace test compares against the trailing 26 weeks, so small and big companies both get beats instead of the big ones getting a flood. Smaller weeks leave a quiet \"Sales: N new customers this week\" line in the wins channel. A notable deal rings a cash register, at most every 30 seconds.",
         "refs": [
           "#1326",
           "#1356",
           "#1357",
           "#1363"
-        ],
-        "media": []
-      },
-      {
-        "area": "Interface",
-        "title": "Share your run",
-        "body": "The end screen now shows a run card with the company name and logo, route or era, years survived, ending, final score and three highlight stats. \"Save as image\" downloads a PNG named for the company, and \"Copy image\" puts it on the clipboard. It is built in the browser and nothing is uploaded.",
-        "refs": [
-          "#1390"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Art",
-        "title": "A street outside the modern-era office",
-        "body": "Classic through Plateau get their own street: cyclists (delivery riders with insulated boxes in most eras), hire scooters on the pavement in Classic, ChatGBT and Agents, and a data centre where the default camera can see it on every stage. It changes with the era. Classic shows a hoarded plot with a COMING SOON board, ChatGBT a building site with crane lights that read at night, Agents and Consolidation a finished windowless data centre with parcel drones overhead, and Plateau a dark, ivy-grown one with fewer cars. The garage's neighbour houses also get roofs that sit on their walls instead of sinking into them.",
+        "title": "A street outside the modern office",
+        "body": "Classic through Plateau get their own street outside the office. Delivery riders with insulated boxes pass on the far kerb in the modern eras, hire scooters line the pavement in Classic, ChatGBT and Agents, and a neighbouring building cycles with the market: a hoarded plot with a COMING SOON board in Classic, a steel frame under a tower crane in ChatGBT, a finished windowless data centre in Agents and Consolidation, and a dark, ivy-grown one in the Plateau. Parcel drones cross the sky in the later eras.",
         "refs": [
           "#1308",
-          "#1323",
-          "#1314"
-        ],
-        "media": []
+          "#1323"
+        ]
       },
       {
         "area": "Office",
         "title": "Disk duplicator and retail display get real models",
-        "body": "The two pre-internet shop items stop being crate stand-ins and get real models and their own icons. The Disk Duplicator costs $3K, $6K or $12K and cuts the cost of making each batch of copies by 10%, 20% or 30%. It goes from a beige drive tower to twin towers to a floor-standing autoloader beside a packing table. The Retail Display costs $2K, $4K or $8K and raises retail demand by 10%, 15% or 20%. It goes from a table of boxed software to a store endcap to a double endcap with a giant box standee.",
+        "body": "The Disk Duplicator ($3K/$6K/$12K) cuts batch duplication costs by 10%, 20% or 30%, stepping from a beige drive tower to twin towers to a floor-standing autoloader beside a packing table. The Retail Display ($2K/$4K/$8K) raises retail demand by 10%, 15% or 20%, growing from a table of boxed software to a store endcap to a double endcap with a giant box standee. Both are available in the pre-internet era and earlier.",
         "refs": [
           "#1298",
-          "#1299"
+          "#1299",
+          "#1385"
         ],
         "media": [
           {
-            "src": "https://raw.githubusercontent.com/justinlindh/human-in-the-loop/feature-media/office-disk_duplicator.webp",
+            "src": "media/2026-10-04/office-disk_duplicator.webp",
             "kind": "image",
-            "caption": "Disk duplicator"
+            "caption": "Disk duplicator, three levels"
           }
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "The Banner Rotation Server finally looks like one",
+        "body": "The dot-com era's Banner Rotation Server ($3K/$6K/$12K, +5%/+10%/+15% customer acquisition) stops being a tan crate and becomes a beige tower with a CRT showing a banner ad under a striped web-banner sign, then adds a second tower with a printout, then becomes a cabinet beside a three-sided rotating sign.",
+        "refs": [
+          "#1445"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-04/office-dotcom_banner.webp",
+            "kind": "image",
+            "caption": "Banner Rotation Server, three levels"
+          }
+        ]
+      },
+      {
+        "area": "People",
+        "title": "Faces that show how people feel",
+        "body": "Characters now have expressive faces with brows, lids and mouths that blend between emotions. Burnt-out staff get a hollow stare and rare blinks. When a notable deal closes, the seller looks smug. New hires look delighted, and anyone you click turns to the camera and looks at you. While a voice bark sounds, the speaker's mouth moves with the audio and their face takes the emotion: happy, questioning, annoyed, tired or sighing.",
+        "refs": [
+          "#1402",
+          "#1410",
+          "#1413",
+          "#1421"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Share your run",
+        "body": "The end screen now shows a run card with the company name and logo, route or era, years survived, how the run ended, final score and three highlight stats. Save it as a PNG or copy it to the clipboard, all done in the browser with nothing uploaded.",
+        "refs": [
+          "#1390"
         ]
       },
       {
         "area": "Fixes",
-        "title": "Goal order, touch sizes, card lettering and low-end speed",
-        "body": "Goals list the current chapter first, so a dot-com start no longer opens on a later chapter's goal. Reports stop printing \"null\" in product subtitles, and the quiet chat banner names the office tab. Chat buttons are 40 px on touch and a scrolling tab row gets an edge fade. Card lettering no longer shows touching letters running together. On weak devices the Low setting renders at half resolution on software graphics and skips the extra full-screen passes, roughly three times faster on a 2-core software renderer.",
+        "title": "Touch and rendering improvements",
+        "body": "Chat buttons are now 40 px tall on touch so they hit reliably. Card lettering no longer shows touching letters running together. On weak devices with Low quality, rendering skips memory-heavy effects and runs about three times faster.",
         "refs": [
-          "#1296",
           "#1369",
+          "#1388",
           "#1349"
-        ],
-        "media": []
+        ]
       },
       {
         "area": "Art",
         "title": "New art, rendered clean",
-        "body": "The new objects and looks from this day, each on its own with a plain background. Things that come in levels show all three side by side.",
-        "media": [
-          {
-            "src": "media/2026-10-04/disk_duplicator.webp",
-            "kind": "image",
-            "caption": "Disk duplicator, three levels: the pre-internet era's way to ship software."
-          },
-          {
-            "src": "media/2026-10-04/retail_shelf.webp",
-            "kind": "image",
-            "caption": "Retail shelf, three levels: your boxed product in the shops."
-          },
-          {
-            "src": "media/2026-10-04/era_datacentre.webp",
-            "kind": "image",
-            "caption": "Modern era: the neighbouring building becomes a data centre."
-          },
-          {
-            "src": "media/2026-10-04/era_datacentre_build.webp",
-            "kind": "image",
-            "caption": "Modern era: the data centre under construction, crane and scaffold."
-          },
-          {
-            "src": "media/2026-10-04/era_datacentre_overgrown.webp",
-            "kind": "image",
-            "caption": "Late game: the data centre overgrown with green."
-          },
-          {
-            "src": "media/2026-10-04/era_delivery_bike.webp",
-            "kind": "image",
-            "caption": "Street life: a delivery rider passing by."
-          },
-          {
-            "src": "media/2026-10-04/era_drone.webp",
-            "kind": "image",
-            "caption": "Street life: parcel drones flying past."
-          },
-          {
-            "src": "media/2026-10-04/era_hire_scooter.webp",
-            "kind": "image",
-            "caption": "Street life: hire scooters on the pavement."
-          },
-          {
-            "src": "media/2026-10-04/dotcom_banner.webp",
-            "kind": "image",
-            "caption": "Dot-com banner, three levels: the era's launch-party banner."
-          },
-          {
-            "src": "media/2026-10-04/era_datacentre_plot.webp",
-            "kind": "image",
-            "caption": "Modern era: the empty plot before the data centre."
-          }
-        ]
+        "body": "The new objects from this day, each on its own with a plain background. Things that come in levels show all three side by side.",
+        "refs": []
       }
     ]
   },
