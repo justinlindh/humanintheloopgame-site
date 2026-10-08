@@ -1,12 +1,91 @@
 [
   {
+    "date": "2026-10-07",
+    "headline": "First person, a water cooler that spreads knowledge, foosball warnings, and a cash sparkline",
+    "items": [
+      {
+        "area": "Interface",
+        "title": "First-person camera modes",
+        "body": "See the office through a staff member's eyes, or walk around it on foot. See as, on a person's card, shows the office from their eyes. Walk, beside the camera turn buttons, lets you explore it yourself: on desktop with WASD or arrows and the mouse to look, on touch with a stick under your left thumb and a drag on the right half of the screen to look. Escape or Exit returns you to the normal view. In first person the windows show the real street outside instead of the painted backdrop.",
+        "refs": [
+          "#1823",
+          "#1829",
+          "#1833",
+          "#1838",
+          "#1834",
+          "#1819"
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "The water cooler brings knowledge sharing",
+        "body": "The coffee corner is now a water cooler where people gather and share what they know. Each person with a desk in reach closes 2% of their gap to the most knowledgeable person in reach each week, up to 1 point, when two or more people with desks in reach of the cooler are in the office. The cooler looks its era: a glass jug with a spigot on a wooden stand in the pre-internet, a blue-bottle cooler with a cup cabinet in the dot-com and classic years, a filtered tap on reclaimed wood in Web 2.0, and a white hydration station from Agents on. Two people stop by with paper cups now and then, sip and chat, then head back to their desks, with the chatter turned out toward the room so you see their faces. The cooler glugs now and then, its shop icon is an upside-down bottle on a dispenser, and build mode shows the largest cooler share in reach of a desk, not the sum.",
+        "refs": [
+          "#1759",
+          "#1764",
+          "#1763",
+          "#1757",
+          "#1765",
+          "#1768",
+          "#1773"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Back to title in Settings",
+        "body": "Settings now has a Back to title button that shows when you're playing. Tap it and confirm to save your game and return to the title screen, where Continue picks your company back up. The confirm scrolls into view when it opens.",
+        "refs": [
+          "#1775",
+          "#1776"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Cash sparkline in the HUD shows cash trends",
+        "body": "The cash display now shows a small graph of the last 40 weeks of cash next to the number, except on phones and the Low quality setting. The line is green while cash has been climbing lately (it follows the last 6 weeks), amber when it falls or you have under 30 weeks of runway, and red when you have 12 weeks of runway or less, or are in the red and still losing money. A dashed line marks zero when cash has been below it. Tap the cash display to open the full money chart.",
+        "refs": [
+          "#1780"
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "Foosball tables show when they can't play",
+        "body": "A foosball table needs clear room on both long sides to work, and now the game tells you when one doesn't. While placing furniture, an amber preview warns if the new item would block a game or gets blocked. A placed table with no room gets an exclamation mark bubble over it, and the item card explains why the games stopped.",
+        "refs": [
+          "#1788",
+          "#1809",
+          "#1821"
+        ]
+      },
+      {
+        "area": "Fixes",
+        "title": "Smaller fixes",
+        "body": "Starting a product with automation on no longer requires picking a team. The Settings switches on phones now centre their knobs in the full height of the pill. Water cooler visits no longer clip through the cooler, and staff sipping hold their mugs properly. Printer carriers clear the printer without clipping through it when they carry it out back, and step onto their grips at walking pace. Mailed events pick their text from the era template, so the same mail arrives no matter what you named things. A Network Operations Center with chairs keeps two rows clear in front of it, for placement and upgrades. A letter that the queue presents gets a short ping. The post menu in Yak and DeskNet keeps its rows from overprinting each other and stays inside the Yak panel. The enterprise RFP binder shows POLICY on one spine and FINAL on the other.",
+        "refs": [
+          "#1787",
+          "#1857",
+          "#1852",
+          "#1742",
+          "#1746",
+          "#1751",
+          "#1744",
+          "#1745",
+          "#1750",
+          "#1738",
+          "#1741",
+          "#1736"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-06",
     "headline": "Fewer popups and an inbox, the era choice comes first, and the game installs for offline play",
     "items": [
       {
         "area": "Pacing",
         "title": "Fewer interruptions, more flow",
-        "body": "The game now shows about 0.4 asks a running minute instead of constant popups. Most random events still happen, but only the biggest ones break in as cards. The rest play out quietly with a careful choice and post to Yak. Decisions, Yak prompts and letters wait in a queue and come one at a time, at least 90 seconds of running play apart (150 above 1x speed; emergencies skip the wait), and a prompt or letter you have seen closes after 120 seconds of running play. Status news (someone's back, running on empty, a project at 75%, a product shipping) shows as a small bubble in the office instead of a toast, so the team's mood reads in the room. A minor incident is a red bubble, the all-clear turns green. Company news floats as a gold banner. A new product gets one launch card and no launched toast, a small unlock gets a New pip and one toast instead of a card, the advisor button pulses three times when advice arrives and then glows, and Yak counts only incidents, wins and important posts as unread, with flavour posts at least 20 seconds apart. When an ask times out, its default is a careful choice that never punishes, such as a small counter-offer when a bigger company poaches someone.",
+        "body": "The game now shows about 0.4 asks a running minute instead of constant popups. Most random events still happen, but only the biggest ones break in as cards. The rest play out quietly with a careful choice and post to Yak. Decisions, Yak prompts and letters wait in a queue and come one at a time, at least 90 seconds of running play apart (150 above 1x speed; emergencies skip the wait), and a prompt or letter you have seen closes after 120 seconds of running play. Status news (someone's back, running on empty, a project at 75%, a product shipping) shows as a small bubble in the office instead of a toast, so the team's mood reads in the room. A minor incident is a red bubble, the all-clear turns green. Company news floats as a gold banner. A new product gets one launch card and no launched toast, a small unlock gets a New pip and one toast instead of a card, the advisor button pulses three times when advice arrives and then glows, and Yak counts only incidents, wins and important posts as unread, with flavour posts at least 20 seconds apart. When an ask times out, its default is a careful choice that costs at most a little, such as a small counter-offer when a bigger company poaches someone.",
         "refs": [
           "#1702",
           "#1654",
