@@ -179,14 +179,19 @@
         ],
         "media": [
           {
-            "src": "media/2026-10-06/gag-pet-mishap.webp",
-            "kind": "image",
-            "caption": "The chewed cable gag plays out in the office with no card"
-          },
-          {
             "src": "media/2026-10-06/gag-ping-pong.webp",
             "kind": "image",
-            "caption": "Ping-pong: a bubble over a player and no card"
+            "caption": "Ping-pong: the posters go up and a \"Ping-pong!\" caption bubble floats over the room, with no card"
+          },
+          {
+            "src": "media/2026-10-06/gag-expo.webp",
+            "kind": "image",
+            "caption": "A \"Skipped the expo\" caption bubble over the person at their desk"
+          },
+          {
+            "src": "media/2026-10-06/gag-pet-mishap.webp",
+            "kind": "image",
+            "caption": "The chewed cable: the prop stays up on the floor and no card opens"
           }
         ]
       },
