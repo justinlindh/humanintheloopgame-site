@@ -14,6 +14,23 @@
           "#1838",
           "#1834",
           "#1819"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-07/first-person-see-as.webp",
+            "kind": "image",
+            "caption": "See as: the office through Nathan's eyes, with the Seeing as tag and Exit"
+          },
+          {
+            "src": "media/2026-10-07/first-person-walk.webp",
+            "kind": "image",
+            "caption": "Walk: on foot among the desks, with the Walking tag and the controls hint"
+          },
+          {
+            "src": "media/2026-10-07/first-person-windows.webp",
+            "kind": "image",
+            "caption": "A window pane in first person: left the painted backdrop, right the see-through glass"
+          }
         ]
       },
       {
@@ -28,6 +45,18 @@
           "#1765",
           "#1768",
           "#1773"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-07/water-cooler-eras.webp",
+            "kind": "image",
+            "caption": "The water cooler's models, one per era"
+          },
+          {
+            "src": "media/2026-10-07/water-cooler-chat.webp",
+            "kind": "image",
+            "caption": "Two people chat at the cooler, turned out toward the room"
+          }
         ]
       },
       {
@@ -37,6 +66,13 @@
         "refs": [
           "#1775",
           "#1776"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-07/back-to-title.webp",
+            "kind": "image",
+            "caption": "Back to title in Settings, with its confirm: Save and go, or Stay"
+          }
         ]
       },
       {
@@ -45,6 +81,13 @@
         "body": "The cash display now shows a small graph of the last 40 weeks of cash next to the number, except on phones and the Low quality setting. The line is green while cash has been climbing lately (it follows the last 6 weeks), amber when it falls or you have under 30 weeks of runway, and red when you have 12 weeks of runway or less, or are in the red and still losing money. A dashed line marks zero when cash has been below it. Tap the cash display to open the full money chart.",
         "refs": [
           "#1780"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-07/cash-sparkline.webp",
+            "kind": "image",
+            "caption": "Cash with its 40-week graph in the top bar"
+          }
         ]
       },
       {
@@ -55,6 +98,18 @@
           "#1788",
           "#1809",
           "#1821"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-07/foosball-hint.webp",
+            "kind": "image",
+            "caption": "An amber preview while placing, and an exclamation bubble over a table with no room"
+          },
+          {
+            "src": "media/2026-10-07/foosball-build-bar.webp",
+            "kind": "image",
+            "caption": "The build bar says \"Needs room on both long sides\""
+          }
         ]
       },
       {
@@ -102,6 +157,13 @@
           "#1731",
           "#1693",
           "#1668"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/desk-bubbles.webp",
+            "kind": "image",
+            "caption": "Status news as bubbles over the team: back, 75% done, a minor outage, running on empty, and a gold company banner"
+          }
         ]
       },
       {
@@ -114,6 +176,18 @@
           "#1699",
           "#1724",
           "#1726"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/gag-pet-mishap.webp",
+            "kind": "image",
+            "caption": "The chewed cable gag plays out in the office with no card"
+          },
+          {
+            "src": "media/2026-10-06/gag-ping-pong.webp",
+            "kind": "image",
+            "caption": "Ping-pong: a bubble over a player and no card"
+          }
         ]
       },
       {
@@ -123,6 +197,18 @@
         "refs": [
           "#1573",
           "#1669"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/inbox-envelope.webp",
+            "kind": "image",
+            "caption": "The envelope in the top bar"
+          },
+          {
+            "src": "media/2026-10-06/inbox-letter.webp",
+            "kind": "image",
+            "caption": "A letter on its own stationery card in the Mail panel"
+          }
         ]
       },
       {
@@ -133,6 +219,13 @@
           "#1634",
           "#1708",
           "#1686"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/era-choice.webp",
+            "kind": "image",
+            "caption": "New Game opens on the Era step: the eight starts as cards, Classic chosen"
+          }
         ]
       },
       {
@@ -142,6 +235,13 @@
         "refs": [
           "#1589",
           "#1613"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/settings-full-screen.webp",
+            "kind": "image",
+            "caption": "Settings with the Full screen button"
+          }
         ]
       },
       {
@@ -150,6 +250,13 @@
         "body": "After a boxed launch in the pre-internet, a card says boxed software sells from stock and offers 100 copies, 500 copies or Hold off, which points you at Reports > Inventory. When a product sells its last copy with buyers still asking and nothing on the way, a Sold out card offers the same reorder, once per sell-out.",
         "refs": [
           "#1575"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-06/boxed-first-order.webp",
+            "kind": "image",
+            "caption": "The Empty shelves card: 100 copies, 500 copies or Hold off"
+          }
         ]
       },
       {
