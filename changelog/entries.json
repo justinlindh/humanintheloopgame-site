@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-10-07",
+    "headline": "First-person camera lets you see through staff eyes, foosball tables warn when they can't play, and cash sparklines in the HUD",
+    "items": [
+      {
+        "area": "Interface",
+        "title": "First-person camera modes",
+        "body": "See the office through a staff member's eyes or walk around from ground level. Tap See as on a person's card to view the world through their perspective, or use the Walk button next to the camera turn controls to explore on foot. On desktop, use WASD or arrows to move and your mouse to look around. On touch, a virtual stick appears under your left thumb for movement, and drag the right side of the screen to look. Press Escape or tap Exit to return to normal view.",
+        "refs": [
+          "#1823",
+          "#1829",
+          "#1833",
+          "#1838",
+          "#1819",
+          "#1864"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Cash sparkline in the HUD shows cash trends",
+        "body": "The cash display now shows a small graph of the last 40 weeks of cash next to the number on desktop and larger screens. The line is green while cash is climbing, amber when it falls or you have under 30 weeks of runway, and red when you have under 12 weeks or are in the red. A dashed line marks zero. Tap the cash display to open the full money chart.",
+        "refs": [
+          "#1780"
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "Foosball tables show when they can't play",
+        "body": "A foosball table needs clear room on both long sides to work, and now the game tells you when one doesn't. While placing furniture, an amber preview warns if the new item would block a game or gets blocked. A placed table with no room gets an exclamation mark bubble over it, and the item card explains why the games stopped.",
+        "refs": [
+          "#1788",
+          "#1809",
+          "#1821"
+        ]
+      },
+      {
+        "area": "Fixes",
+        "title": "Smaller fixes",
+        "body": "Starting a product with automation on no longer requires picking a team. The Settings switches on phones now centre their knobs in the full height of the pill. The Back to title confirm now scrolls into view when it opens, so you can see it even when buried in the settings panel. Water cooler visits no longer clip through the cooler, and staff sipping hold their mugs properly.",
+        "refs": [
+          "#1787",
+          "#1857",
+          "#1776",
+          "#1852"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-05",
     "headline": "Era starts for every new game, a droning all-hands screen for the open-plan decision, and faces, bells and props that read",
     "items": [
