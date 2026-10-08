@@ -423,7 +423,7 @@
       {
         "area": "Eras",
         "title": "Launch in the pre-internet selling boxed software",
-        "body": "A new founding option starts you in 1990 with two founders, three desks in a garage and $240K added to the funding you pick. Pick Boxed Software in Build, then order copies in Reports > Inventory at $8 each to manufacture and sell them for $250 apiece at retail (the retailer takes 30%). Delivery takes two weeks. Reviews below 6 send back one copy in twenty. Four weeks after the first delivery the retailer withdraws unsold stock, once per product, and charges 20% of its manufacturing cost, capped at $8K. Restore health with mailed patches at $2 per installed copy, capped at $10K a mailing; a patch is refused, with no charge, when the copies are already at full health with the current version. The pre-internet era lasts 156 weeks before the dot-com boom arrives, and it scores 72% of a Classic run's value.",
+        "body": "A new founding option starts you in 1990 with two founders, three desks in a garage and $240K added to the funding you pick. Pick Boxed Software in Build, then order copies in Reports > Inventory at $8 each to manufacture and sell them for $250 apiece at retail (the retailer takes 30%). Delivery takes two weeks. Reviews below 6 send back one copy in twenty. Four weeks after the first delivery the retailer withdraws unsold stock, once per product, and charges 20% of the unsold copies' manufacturing cost, capped at $8K. Restore health with mailed patches at $2 per installed copy, capped at $10K a mailing; a patch is refused, with no charge, when the copies are already at full health with the current version. The pre-internet era lasts 156 weeks before the dot-com boom arrives, and it scores about 95% of a Classic run.",
         "refs": [
           "#1270",
           "#1296"
@@ -445,7 +445,7 @@
       {
         "area": "Interface",
         "title": "DeskNet: the pre-internet chat",
-        "body": "Pre-internet companies use DeskNet instead of modern chat: a green monospace terminal with bracketed sender names, a /me status line and a period 1990s look. Reactions, the Post picker and reply prompts work as in the regular chat, and a new message pings with a terminal beep.",
+        "body": "Pre-internet companies use DeskNet instead of modern chat: a monospace bulletin board with a green title bar and bracketed sender names, a /me status line and a period 1990s look. Reactions, the Post picker and reply prompts work as in the regular chat, and a new message pings with a terminal beep.",
         "refs": [
           "#1270"
         ]
@@ -453,7 +453,7 @@
       {
         "area": "Fixes",
         "title": "Goal order, product cards and chat labels",
-        "body": "Goals now list the current chapter first, so a pre-internet start shows its early goals right away instead of later ones. Product cards no longer print null for missing angles or models. The chat banner names its tab in the era's voice: office for modern eras, DeskNet for pre-internet.",
+        "body": "Goals now list the current chapter first, so a pre-internet start shows its early goals right away instead of later ones. Product cards no longer print null for missing angles or models. The chat's quiet banner names the era's own channel, office on DeskNet, instead of #general.",
         "refs": [
           "#1296"
         ]
