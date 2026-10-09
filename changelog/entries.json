@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-10-08",
+    "headline": "Spot the AI interviews are on for the Agents era, boxed sales get a retail box, and the lockdown card comes first",
+    "items": [
+      {
+        "area": "Decisions",
+        "title": "Spot the AI interviews from the Agents era",
+        "body": "The AI Video Interviews policy comes with the Agents era and is free to adopt. It halves the hiring fee and brings a new candidate pool every 2 weeks with one extra candidate in each, but one in five candidates has an AI that did their interview, and each hire costs 0.5 brand. Switching it on costs 2 team meaning, once. Watch the interview on a candidate to open a flagged card with a transcript that never says which candidate is the AI. Hire them and, if an AI did the interview, 8 to 12 weeks later it leaves with its credentials, costing 1 brand and the lesser of $20,000 and 25% of cash. Reject them and catching an AI gives +2 brand and +1 team meaning, while turning away a real person costs 1 brand.",
+        "refs": [
+          "#1866",
+          "#1869"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-08/1866-pr-desktop.webp",
+            "kind": "image",
+            "caption": "Flagged interview card with a transcript and Hire or Reject choices"
+          }
+        ]
+      },
+      {
+        "area": "Moments",
+        "title": "Interviews play out on screen",
+        "body": "The first hire under the policy, and now and then a later one, starts at the meeting table, where a laptop with a smooth avatar face asks \"Describe a time you showed empathy.\" and talks over the answer. The candidate leans in, wonders if it is still listening, then walks to their desk, about 8.6 seconds in all. The flagged card shows the candidate on a small live video call, where an AI may slip with a glitch, a looping background or a blink on an exact beat, while a real person may have a harmless oddity like a cat walking across the desk.",
+        "refs": [
+          "#1867"
+        ]
+      },
+      {
+        "area": "Decisions",
+        "title": "The lockdown card comes before the office empties",
+        "body": "The \"The office closes\" decision now comes before the lockdown starts, and the card names the person who stays. Before, everyone went remote and the video calls started while the card sat in the queue for one to ten weeks.",
+        "refs": [
+          "#1907"
+        ]
+      },
+      {
+        "area": "Moments",
+        "title": "A notable boxed sale gets a retail box",
+        "body": "A notable boxed sale now shows in the office too. The product's owner raises a shrink-wrapped retail box in the product's colour at their desk, and the nearest coworkers turn and clap, as with the deal bell. If nobody owns the product, the box goes to someone on it, then someone in sales or on maintenance, then anyone seated at a desk.",
+        "refs": [
+          "#1888"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "Blocked office moves look closed and say what's missing",
+        "body": "A move or expansion you can't afford yet now looks closed instead of showing a bright green button. Its reason says what you have and what's left, like \"Needs $250K MRR (you have $210K)\".",
+        "refs": [
+          "#1911",
+          "#1913"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-08/1911-crop-after2.webp",
+            "kind": "image",
+            "caption": "Greyed Move to Office Floor button saying what you have and need"
+          }
+        ]
+      },
+      {
+        "area": "Fixes",
+        "title": "Walking, carrying and column fixes",
+        "body": "Walkers stay off furniture and out of the office robot's circle, and someone waiting by the robot steps aside when it drives off. The hammer carry no longer crosses desks from a narrow spot, and the batter in the printer smash now faces the printer when it is set down. Stage columns stay in place when a stage rebuilds, as on an expansion.",
+        "refs": [
+          "#1875",
+          "#1893",
+          "#1900",
+          "#1880",
+          "#1898"
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-07",
     "headline": "First person, a water cooler that spreads knowledge, foosball warnings, and a cash sparkline",
     "items": [
