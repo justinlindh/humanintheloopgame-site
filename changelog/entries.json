@@ -22,7 +22,7 @@
       {
         "area": "Moments",
         "title": "Interviews play out on screen",
-        "body": "A hire made under the policy starts at the meeting table, where a laptop with a smooth avatar face asks \"Describe a time you showed empathy.\" and talks over the answer. The candidate leans in, wonders if it is still listening, then walks to their desk, about 8.6 seconds in all. The flagged card shows the candidate on a small live video call, where an AI may slip with a glitch, a looping background or a blink on an exact beat, while a real person may have a harmless oddity like a cat walking across the desk.",
+        "body": "The first hire under the policy, and now and then a later one, starts at the meeting table, where a laptop with a smooth avatar face asks \"Describe a time you showed empathy.\" and talks over the answer. The candidate leans in, wonders if it is still listening, then walks to their desk, about 8.6 seconds in all. The flagged card shows the candidate on a small live video call, where an AI may slip with a glitch, a looping background or a blink on an exact beat, while a real person may have a harmless oddity like a cat walking across the desk.",
         "refs": [
           "#1867"
         ]
@@ -38,7 +38,7 @@
       {
         "area": "Moments",
         "title": "A notable boxed sale gets a retail box",
-        "body": "A notable boxed sale now shows in the office too. The product's owner raises a blue shrink-wrapped retail box at their desk, and the nearest coworkers turn and clap, as with the deal bell. If nobody owns the product, the box goes to someone on it, then someone in sales or on maintenance, then anyone seated at a desk.",
+        "body": "A notable boxed sale now shows in the office too. The product's owner raises a shrink-wrapped retail box in the product's colour at their desk, and the nearest coworkers turn and clap, as with the deal bell. If nobody owns the product, the box goes to someone on it, then someone in sales or on maintenance, then anyone seated at a desk.",
         "refs": [
           "#1888"
         ]
@@ -46,7 +46,7 @@
       {
         "area": "Interface",
         "title": "Blocked office moves look closed and say what's missing",
-        "body": "A move or expansion you can't afford yet now looks closed instead of showing a bright green button. Its reason says what you have and what's left, like \"Needs $250K MRR (you have $210K)\". Dates in the reason match the HUD, such as \"Available from 2021 · Q1 · Wk 1\".",
+        "body": "A move or expansion you can't afford yet now looks closed instead of showing a bright green button. Its reason says what you have and what's left, like \"Needs $250K MRR (you have $210K)\".",
         "refs": [
           "#1911",
           "#1913"
@@ -62,7 +62,7 @@
       {
         "area": "Fixes",
         "title": "Walking, carrying and column fixes",
-        "body": "Staff keep out of each other's way more. Walkers stay off furniture and out of the office robot's circle, and someone waiting by the robot steps aside when it drives off. The hammer carry no longer crosses desks from a narrow spot, and the batter in the printer smash now faces the printer when it is set down. Stage columns stay in place when a stage rebuilds, as on an expansion.",
+        "body": "Walkers stay off furniture and out of the office robot's circle, and someone waiting by the robot steps aside when it drives off. The hammer carry no longer crosses desks from a narrow spot, and the batter in the printer smash now faces the printer when it is set down. Stage columns stay in place when a stage rebuilds, as on an expansion.",
         "refs": [
           "#1875",
           "#1893",
