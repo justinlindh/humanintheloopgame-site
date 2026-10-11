@@ -1,5 +1,102 @@
 [
   {
+    "date": "2026-10-09",
+    "headline": "Squad chips in the project pickers, a boombox for the office, WASD pans the camera, and each era gets its own deal sound and ceiling",
+    "items": [
+      {
+        "area": "Interface",
+        "title": "Squads you can tick in one tap",
+        "body": "The new-product team picker and Add people on a running project now open with a chip per squad, showing its lead, a cohesion bar and \"4 of 5 can come\". One tap ticks everyone who can come, a second tap clears them, and any row can still be unticked. The chevron shows who can't come and why, like an amber \"moves from Inboxio\" or a grey \"upkeep: stays on Ledgerster\", and the After launch choice (Upkeep or Maintenance) sits on one row. A chip that is on posts the squad, so the people you untick are left off and cohesion and After launch apply. A squad nobody can join is greyed out with its reason.",
+        "refs": [
+          "#1921",
+          "#1922",
+          "#1925"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-09/1922-crop-after-launch-desktop.webp",
+            "kind": "image",
+            "caption": "Squad breakdown showing who can't come and the After launch choice"
+          }
+        ]
+      },
+      {
+        "area": "Office",
+        "title": "The boombox is in the shop",
+        "body": "The boombox is in the Office panel from the Garage on, $350 with one per office. Placing it turns the radio on, playing Sad Lo-fi FM until you set another station on its Radio card, and each occupied desk within 3 tiles adds 5% meaning recovery while it plays, shared across the team. Staff have music tastes, so they remark on the station now and then, and once in a while someone swaps it. The model is a silver boombox on a red milk crate in the Garage, a teal one on a side cabinet on the Office Floor, and a walnut record console with a turntable at HQ. Music notes rise from it while the radio plays.",
+        "refs": [
+          "#1926",
+          "#1932"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-09/1926-boombox-placed-crop.webp",
+            "kind": "image",
+            "caption": "Silver boombox on a red milk crate in the Garage"
+          },
+          {
+            "src": "media/2026-10-09/office-boombox.webp",
+            "kind": "image",
+            "caption": "Walnut record console with turntable and music notes rising"
+          },
+          {
+            "src": "media/2026-10-09/1926-boombox-shop-crop.webp",
+            "kind": "image",
+            "caption": "Boombox shop card, $350, nearby desks recover meaning faster"
+          }
+        ]
+      },
+      {
+        "area": "Sound",
+        "title": "Six radio stations and a tuning knob",
+        "body": "The boombox has six stations, each with three loops: Sad Lo-fi FM, Synth 88, Polka Hour, Bossa Nova Express, Elevator Jazz and Office Funk. A picked station replaces the era's music with a crossfade on the beat, and Radio off goes back to it. A new era's start cheer still plays over the station. Switching the radio on or off clicks like a car-radio button, and changing station turns a tuning knob.",
+        "refs": [
+          "#1923"
+        ]
+      },
+      {
+        "area": "Sound",
+        "title": "Each era has its own deal sound",
+        "body": "A notable deal now plays one short sound, chosen by the era: a typewriter bell in the pre-internet, a computer chime in the dot-com years, a synth bell in Web 2.0, the two-shake silver handbell in Classic and the ChatGBT moment, and a cute UI chime in Agents, Consolidation and the Plateau. A boxed sale rings a cash register instead. It plays once, only when the seller's bell beat shows on screen, and it sounds on Low too.",
+        "refs": [
+          "#1920"
+        ]
+      },
+      {
+        "area": "Moments",
+        "title": "The retail box comes in four colours",
+        "body": "When a boxed run sells, its owner raises a shrink-wrapped retail box in one of four colours: blue, green, orange or purple. Each product keeps the same colour every time.",
+        "refs": [
+          "#1940"
+        ]
+      },
+      {
+        "area": "Art",
+        "title": "A ceiling in every era's first-person view",
+        "body": "First-person views (See as and Walk) get a ceiling in every era, and it never shows in the overhead view. Pre-internet has yellowed drop-ceiling tiles under cool fluorescent lights, and dot-com a dark open deck with silver ducts and orange pendant lamps, where every other lamp goes dead after the bust. Web 2.0 has white plaster with round downlights, and ChatGBT a dark deck with black ducts and strip lights. Agents gets pale timber baffles with cyan light lines, Consolidation grey tiles with sparse cool panels, and the Plateau warm plaster under honey timber beams with terracotta pendants. Classic keeps its off-white drop ceiling with warm panels, and on Low the grids, ducts and beams are left out.",
+        "refs": [
+          "#1927"
+        ]
+      },
+      {
+        "area": "Interface",
+        "title": "WASD pans the camera",
+        "body": "On desktop, WASD now pans the camera the same way as the arrow keys, and Q and E still turn the view. Staff moved from S to T and Automation from A to U to make room for it.",
+        "refs": [
+          "#1936",
+          "#1937"
+        ],
+        "media": [
+          {
+            "src": "media/2026-10-09/1936-after-small-crop.webp",
+            "kind": "image",
+            "caption": "Toolbar with Staff now on T and Automation on U"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "date": "2026-10-08",
     "headline": "Spot the AI interviews are on for the Agents era, boxed sales get a retail box, and the lockdown card comes first",
     "items": [
